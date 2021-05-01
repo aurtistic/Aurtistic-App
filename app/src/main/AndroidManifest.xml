@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aurtisticproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="apoorv"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AurtisticProject">
+        <activity android:name=".User.QuizResult"></activity>
+        <activity android:name=".User.Section1" />
+        <activity android:name=".Common.UserHelper" />
+        <activity android:name=".Common.HowDoesAurtisticWork" />
+        <activity android:name=".User.Signup" />
+        <activity android:name=".User.Login" />
+        <activity android:name=".Admin.Work_for_Aurtistic" />
+        <activity android:name=".User.Section_6" />
+        <activity android:name=".User.Section_5" />
+        <activity android:name=".User.Section_4" />
+        <activity android:name=".User.Section_3" />
+        <activity android:name=".User.Section_2" />
+        <activity android:name=".User.UserProfile" />
+        <activity android:name=".User.Section_1" />
+        <activity android:name=".Common.LoginSignup.StartUpScreen" />
+        <activity android:name=".User.AllCategories" />
+        <activity android:name=".User.UserDashboard" />
+        <activity android:name=".Common.OnBoarding" />
+        <activity android:name=".Test" />
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

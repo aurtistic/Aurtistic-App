@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Aurtistic Project</string>
+
+    <!--    Strings for Onboarding Screen-->
+
+    <!--    Titles-->
+
+    <string name="first_slide_title">Know about Autism</string>
+    <string name="second_slide_title">Be a part of Aurtistic Stories</string>
+    <string name="third_slide_title">Discover educative content</string>
+    <string name="fourth_slide_title">Take daily quizzes</string>
+
+    <!--    Titles for Reviews-->
+
+    <string name="bhavana_kaushik">Ms. Bhavana Kaushik</string>
+    <string name="karma_dulal">Ms. Karma Lhamo Dulal</string>
+
+    <!--    Designations for Reviews-->
+
+    <string name="bhavana_kaushik_designation">(Project Mentor, Aurtistic)</string>
+    <string name="karma_dulal_designation">(Journalism Student, UNICEF Volunteer)</string>
+
+    <!--    Descriptions for Reviews-->
+
+    <string name="bhavana_kaushik_description">"Working with Team Aurtistic as a mentor is an honour for me. Team grouped up together quickly and collected the authentic data from various NGOs and counselors who deals with Autistic people.  Application is designed in very user-friendly manner keeping in mind the capabilities of person with ASD and will open the doors for people associated with ASD child and adult as a parents and caretakers. This is surely a great initiative and my best wishes are with the Team Aurtistic."</string>
+    <string name="karma_dulal_desciption">Reviews by Karma Mam</string>
+
+    <!--    Descriptions-->
+
+    <string name="first_slide_desc">Know the basics about Autism, its symptoms and therapies. Be an active member in changing the society that still regards this as a taboo.</string>
+    <string name="second_slide_desc">Be a part of the Aurtistic Community and post stories about your own struggle. Also, read the stories put up by various people. </string>
+    <string name="third_slide_desc">We certainly believe that Autism is beautiful. Discover amazing educative content for people with ASD. </string>
+    <string name="fourth_slide_desc">With the help of daily quizzes, get the chance to improve your cognitive abilities and verbal command.</string>
+
+    <!--    Buttons-->
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <!--    Strings for Dashboard-->
+
+    <!--    Logo Name-->
+
+    <string name="logo_name">AURTISTIC</string>
+
+    <!--    Categories-->
+
+    <string name="what_is_asd">What is ASD?</string>
+    <string name="autism_is_beautiful">Autism is beautiful</string>
+    <string name="efforts_of_aurtistic">Efforts of Aurtistic</string>
+    <string name="aurtistic_stories">Aurtistic Stories</string>
+    <string name="work_for_aurtistic">Work for Aurtistic</string>
+
+    <!--    Titles and Descriptions-->
+
+    <string name="our_work">Our Work</string>
+    <string name="our_work_desc">Aurtistic has a clear aim of reducing the existing taboo in the society regarding ASD and social inferiority</string>
+    <string name="people_reviews">Reviews</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search...</string>
+    <string name="slogan_name">ENTER INTO THE WORLD OF AURTISTIC</string>
+    <string name="expand_all">Expand All</string>
+
+    <!--    General String-->
+
+    <string name="heading">Welcome to Aurtistic!</string>
+    <string name="tagline">Where Art meets Autism</string>
+    <string name="signup">SIGNUP</string>
+    <string name="work">HOW DOES AURTISTIC WORK?</string>
+
+    <!--    Navigation Drawer Titles-->
+
+    <string name="home">HOME</string>
+    <string name="search">SEARCH</string>
+    <string name="all_categories">ALL CATEGORIES</string>
+    <string name="section_1">WHAT IS ASD?</string>
+    <string name="section_2">AUTISM IS BEAUTIFUL</string>
+    <string name="section_3">EFFORTS OF AURTISTIC</string>
+    <string name="section_4">AURTISTIC STORIES</string>
+    <string name="section_5">STUDY TIME</string>
+    <string name="section_6">QUIZ TIME</string>
+    <string name="login">LOGIN</string>
+    <string name="profile">PROFILE</string>
+    <string name="logout">LOGOUT</string>
+
+</resources>
