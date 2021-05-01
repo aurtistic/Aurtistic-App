@@ -248,7 +248,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:background="#FFFF66">
+            android:background="#d59667">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -256,7 +256,7 @@
                 android:layout_alignParentEnd="true"
                 android:scaleType="fitEnd"
                 android:adjustViewBounds="true"
-                android:src="@drawable/ic_all_cat6change"
+                android:src="@drawable/allcat_6"
                 android:layout_alignParentRight="true" />
 
             <TextView
