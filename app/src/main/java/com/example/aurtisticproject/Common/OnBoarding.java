@@ -113,4 +113,9 @@ public class OnBoarding extends AppCompatActivity {
 
         }
     };
+    public void lets_get_started(View view){
+
+            startActivity(new Intent(getApplicationContext(), UserDashboard.class));
+
+    }
 }

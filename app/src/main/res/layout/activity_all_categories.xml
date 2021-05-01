@@ -38,11 +38,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Categories"
-            android:textSize="30sp"
             android:fontFamily="@font/bg_black"
+            android:padding="10dp"
+            android:text="Categories"
             android:textAllCaps="true"
-            android:padding="10dp"/>
+            android:textSize="30sp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -50,24 +50,36 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/section1bgfinal">
+            android:background="#FFB6C1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitEnd"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_all_cat1"
+                android:layout_alignParentRight="true" />
 
         <TextView
+            android:id="@+id/what_is_asd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="WHAT IS ASD?"
             android:textColor="@color/black"
-            android:textSize="28sp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
             android:fontFamily="@font/baloo_bold"
             android:padding="25dp"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Know more"
-                android:background="#00000000"
-                android:padding="25dp"
-                android:layout_alignParentBottom="true"/>
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Know more"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
 
 <!--            <ImageView-->
 <!--                android:layout_width="150dp"-->
@@ -83,24 +95,34 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:background="@drawable/section2bgdesign">
+            android:background="#add8e6">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitEnd"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_all_cat2"
+                android:layout_alignParentRight="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="AUTISM IS BEAUTIFUL"
-                android:textSize="30sp"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/baloo_bold"
                 android:padding="25dp"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Explore the beauty"
-                android:background="#00000000"
-                android:padding="25dp"
-                android:layout_alignParentBottom="true"/>
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Explore the beauty"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
 
 
         </RelativeLayout>
@@ -111,24 +133,34 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:background="@drawable/section3bg_updated">
+           android:background="#90EE90">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitEnd"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_all_cat3"
+                android:layout_alignParentRight="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="EFFORTS OF AURTISTIC"
+                android:layout_centerVertical="true"
                 android:textColor="@color/black"
-                android:textSize="28sp"
+                android:textSize="20sp"
                 android:fontFamily="@font/baloo_bold"
                 android:padding="25dp"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="See the efforts"
-                android:background="#00000000"
-                android:padding="25dp"
-                android:layout_alignParentBottom="true"/>
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="See the efforts"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
 
 
         </RelativeLayout>
@@ -139,24 +171,34 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/section4_bg">
+            android:background="#fed8b1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitEnd"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_all_cat4"
+                android:layout_alignParentRight="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="AURTISTIC STORIES"
                 android:textColor="@color/black"
-                android:textSize="30sp"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
                 android:fontFamily="@font/baloo_bold"
                 android:padding="25dp"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Take me there"
-                android:background="#00000000"
-                android:padding="25dp"
-                android:layout_alignParentBottom="true"/>
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Take me there"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
 
 
         </RelativeLayout>
@@ -167,56 +209,117 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:background="@drawable/section5bg_updated">
+            android:background="#CBC3E3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitEnd"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_all_cat5"
+                android:layout_alignParentRight="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="STUDY TIME"
                 android:textColor="@color/black"
-                android:textSize="30sp"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
                 android:fontFamily="@font/baloo_bold"
                 android:padding="25dp"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="I want to study"
-                android:background="#00000000"
-                android:padding="25dp"
-                android:layout_alignParentBottom="true"/>
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="I want to study"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
 
 
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/quizTime"
             android:layout_width="match_parent"
             android:layout_height="150dp"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/section6_bg">
+            android:background="#FFFF66">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitEnd"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_all_cat6change"
+                android:layout_alignParentRight="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="QUIZ TIME"
                 android:textColor="@color/black"
-                android:textSize="30sp"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
                 android:fontFamily="@font/baloo_bold"
                 android:padding="25dp"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Test me"
-                android:background="#00000000"
-                android:padding="25dp"
-                android:layout_alignParentBottom="true"/>
+            <!--            <Button-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="I want to study"-->
+            <!--                android:background="#00000000"-->
+            <!--                android:padding="25dp"-->
+            <!--                android:layout_alignParentBottom="true"/>-->
 
 
         </RelativeLayout>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:onClick="call_quiz"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="#FFFF66">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:scaleType="fitEnd"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:src="@drawable/ic_allcat62"-->
+<!--                android:layout_alignParentRight="true" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="QUIZ TIME"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:textSize="20sp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:fontFamily="@font/baloo_bold"-->
+<!--                android:padding="25dp"/>-->
+
+<!--&lt;!&ndash;            <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Test me"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="#00000000"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:padding="25dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_alignParentBottom="true"/>&ndash;&gt;-->
+
+
+<!--        </RelativeLayout>-->
 
 
 

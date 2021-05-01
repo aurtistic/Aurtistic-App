@@ -23,10 +23,10 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     int images[] = {
-            R.drawable.know_more_about_autism,
-            R.drawable.aurtistic_stories,
-            R.drawable.discover_educative_content,
-            R.drawable.take_daily_quizzes
+            R.drawable.ic_screen_1_design,
+            R.drawable.ic_screen_2_design,
+            R.drawable.ic_screen_3_design,
+            R.drawable.ic_screen_4_design
     };
 
     int headings[] = {
