@@ -107,13 +107,13 @@
             android:text="Google Sign in"
             />
 
-        <Button
+        <com.facebook.login.widget.LoginButton
             android:id="@+id/fsignin"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="facebook Sign in"
-            />
-
+            android:layout_gravity="center_horizontal"
+            android:text="Continue with Facebook"
+             />
         <Button
             android:id="@+id/sign_up_screen"
             android:layout_width="wrap_content"
