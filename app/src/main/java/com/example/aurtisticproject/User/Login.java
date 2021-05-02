@@ -264,7 +264,7 @@ public class Login extends AppCompatActivity {
                         //intent.putExtra("",);
 
                         startActivity(intent);
-                    }
+                    }//
                     else{
                         password.setError("Wrong Password");
                         password.requestFocus();
