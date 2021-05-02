@@ -41,9 +41,9 @@ import com.google.firebase.database.ValueEventListener;
 
 public class Login extends AppCompatActivity {
 
-    Button CallSignUp, login_btn, G_signin , fb_signin;
+    Button CallSignUp, login_btn;
 
-    ImageView image;
+    ImageView image, G_signin , fb_signin;
 
     static String user;
     TextView logoText, sloganText;
@@ -68,7 +68,7 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_start_up_screen);
         //Hooks
         CallSignUp = findViewById(R.id.sign_up_screen);
         image = findViewById(R.id.logo_image);
@@ -77,8 +77,8 @@ public class Login extends AppCompatActivity {
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         login_btn = findViewById(R.id.Login_btn);
-        G_signin = findViewById(R.id.gsignin);
-        fb_signin = findViewById(R.id.fsignin);
+        G_signin = findViewById(R.id.gsignin1);
+        fb_signin = findViewById(R.id.fsignin1);
 
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
@@ -92,35 +92,35 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        CallSignUp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Login.this, Signup.class);
-                startActivity(intent);
-
-
-//                Pair[] pairs = new Pair[7];
-//                pairs[0] = new Pair<View, String>(image, "logo_img");
-//                pairs[1]=new Pair<View,String>(logoText, "logo_text");
-//                pairs[2]=new Pair<View,String>(sloganText, "heading_trans");
-//                pairs[3]=new Pair<View,String>(username, "username_trans");
-//                pairs[4]=new Pair<View,String>(password, "pass_trans");
-//                pairs[5]=new Pair<View,String>(login_btn, "go_trans");
-//                pairs[6]=new Pair<View,String>(CallSignUp, "sign_up_trans");
+//        CallSignUp.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Login.this, Signup.class);
+//                startActivity(intent);
 //
-//                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-//                    ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(Login.this, pairs);
-//                    startActivity(intent, options.toBundle());
-//                }
-            }
-        });
+//
+////                Pair[] pairs = new Pair[7];
+////                pairs[0] = new Pair<View, String>(image, "logo_img");
+////                pairs[1]=new Pair<View,String>(logoText, "logo_text");
+////                pairs[2]=new Pair<View,String>(sloganText, "heading_trans");
+////                pairs[3]=new Pair<View,String>(username, "username_trans");
+////                pairs[4]=new Pair<View,String>(password, "pass_trans");
+////                pairs[5]=new Pair<View,String>(login_btn, "go_trans");
+////                pairs[6]=new Pair<View,String>(CallSignUp, "sign_up_trans");
+////
+////                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+////                    ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(Login.this, pairs);
+////                    startActivity(intent, options.toBundle());
+////                }
+//            }
+//        });
 
-        login_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                loginUser(v);
-            }
-        });
+//        login_btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                loginUser(v);
+//            }
+//        });
 
     }
 
@@ -151,7 +151,7 @@ public class Login extends AppCompatActivity {
                 firebaseAuthWithGoogle(account);
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
-                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
 
             }
         }
@@ -179,111 +179,111 @@ public class Login extends AppCompatActivity {
                 });
     }
 
-    private Boolean validatePassword() {
-        String val = password.getEditText().getText().toString(); //imp*******
-        if(val.isEmpty()) {
-            password.setError("Field cannot be empty");
-            return false;
-        }
-        else {
-            password.setError(null);
-            password.setErrorEnabled(false);
-            return true;
-        }
-    }
-
-    private Boolean validateUsername() {
-        String val = username.getEditText().getText().toString(); //imp*******
-
-        if(val.isEmpty()) {
-            username.setError("Field cannot be empty");
-            return false;
-        }
-        else{
-            username.setError(null);
-            username.setErrorEnabled(false);
-            return true;
-        }
-    }
-
-    public void loginUser(View view) {
-        //Validate Login Info
-        if( !validatePassword() | !validateUsername())
-            return;
-        else{
-            isUser();
-        }
-    }
-
-    private void isUser() {
-        final String userEnteredUsername = username.getEditText().getText().toString();
-        final String userEnteredPassword = password.getEditText().getText().toString();
-
-//        Toast.makeText(this, userEnteredUsername, Toast.LENGTH_SHORT).show();
-//        Toast.makeText(this, userEnteredPassword, Toast.LENGTH_SHORT).show();
-        DatabaseReference reference= FirebaseDatabase.getInstance().getReference("users");
-
-        Query checkUser = reference.orderByChild("username").equalTo(userEnteredUsername);
-
-        checkUser.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-
-                if ( snapshot.exists()){
-
-                    user = userEnteredUsername;
-                    username.setError(null);
-                    username.setErrorEnabled(false);
-
-                    String passwordformDB = snapshot.child(userEnteredUsername).child("password").getValue(String.class);
-//                    String s = passwordformDB;
-//                    Toast.makeText(Login.this,s, Toast.LENGTH_SHORT).show();
-//                    assert passwordformDB != null;
-                    if(passwordformDB.equals(userEnteredPassword)){
-
-                        username.setError(null);
-                        username.setErrorEnabled(false);
-
-                        String nameformDB = snapshot.child(userEnteredUsername).child("name").getValue(String.class);
-                        String usernameformDB = snapshot.child(userEnteredUsername).child("username").getValue(String.class);
-                        String phoneNoformDB = snapshot.child(userEnteredUsername).child("phoneNo").getValue(String.class);
-                        String emailformDB = snapshot.child(userEnteredUsername).child("email").getValue(String.class);
-                        String cs = snapshot.child(userEnteredUsername).child("cScore").getValue(String.class);
-                        String qt = snapshot.child(userEnteredUsername).child("quiz_taken").getValue(String.class);
-
-                        Intent intent = new Intent(getApplicationContext(), UserProfile.class);
-
-                        intent.putExtra("name",nameformDB);
-                        intent.putExtra("username",usernameformDB);
-                        intent.putExtra("email",emailformDB);
-                        intent.putExtra("phoneNo",phoneNoformDB);
-                        intent.putExtra("password",passwordformDB);
-                        intent.putExtra("cScore", cs);
-                        intent.putExtra("quiz_taken", qt);
-
-                        //intent.putExtra("",);
-
-                        startActivity(intent);
-                    }
-                    else{
-                        password.setError("Wrong Password");
-                        password.requestFocus();
-                    }
-
-                }
-                else{
-                    username.setError("No User found");
-                    username.requestFocus();
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
-
-    }
+//    private Boolean validatePassword() {
+//        String val = password.getEditText().getText().toString(); //imp*******
+//        if(val.isEmpty()) {
+//            password.setError("Field cannot be empty");
+//            return false;
+//        }
+//        else {
+//            password.setError(null);
+//            password.setErrorEnabled(false);
+//            return true;
+//        }
+//    }
+//
+//    private Boolean validateUsername() {
+//        String val = username.getEditText().getText().toString(); //imp*******
+//
+//        if(val.isEmpty()) {
+//            username.setError("Field cannot be empty");
+//            return false;
+//        }
+//        else{
+//            username.setError(null);
+//            username.setErrorEnabled(false);
+//            return true;
+//        }
+//    }
+//
+//    public void loginUser(View view) {
+//        //Validate Login Info
+//        if( !validatePassword() | !validateUsername())
+//            return;
+//        else{
+//            isUser();
+//        }
+//    }
+//
+//    private void isUser() {
+//        final String userEnteredUsername = username.getEditText().getText().toString();
+//        final String userEnteredPassword = password.getEditText().getText().toString();
+//
+////        Toast.makeText(this, userEnteredUsername, Toast.LENGTH_SHORT).show();
+////        Toast.makeText(this, userEnteredPassword, Toast.LENGTH_SHORT).show();
+//        DatabaseReference reference= FirebaseDatabase.getInstance().getReference("users");
+//
+//        Query checkUser = reference.orderByChild("username").equalTo(userEnteredUsername);
+//
+//        checkUser.addListenerForSingleValueEvent(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//
+//                if ( snapshot.exists()){
+//
+//                    user = userEnteredUsername;
+//                    username.setError(null);
+//                    username.setErrorEnabled(false);
+//
+//                    String passwordformDB = snapshot.child(userEnteredUsername).child("password").getValue(String.class);
+////                    String s = passwordformDB;
+////                    Toast.makeText(Login.this,s, Toast.LENGTH_SHORT).show();
+////                    assert passwordformDB != null;
+//                    if(passwordformDB.equals(userEnteredPassword)){
+//
+//                        username.setError(null);
+//                        username.setErrorEnabled(false);
+//
+//                        String nameformDB = snapshot.child(userEnteredUsername).child("name").getValue(String.class);
+//                        String usernameformDB = snapshot.child(userEnteredUsername).child("username").getValue(String.class);
+//                        String phoneNoformDB = snapshot.child(userEnteredUsername).child("phoneNo").getValue(String.class);
+//                        String emailformDB = snapshot.child(userEnteredUsername).child("email").getValue(String.class);
+//                        String cs = snapshot.child(userEnteredUsername).child("cScore").getValue(String.class);
+//                        String qt = snapshot.child(userEnteredUsername).child("quiz_taken").getValue(String.class);
+//
+//                        Intent intent = new Intent(getApplicationContext(), UserProfile.class);
+//
+//                        intent.putExtra("name",nameformDB);
+//                        intent.putExtra("username",usernameformDB);
+//                        intent.putExtra("email",emailformDB);
+//                        intent.putExtra("phoneNo",phoneNoformDB);
+//                        intent.putExtra("password",passwordformDB);
+//                        intent.putExtra("cScore", cs);
+//                        intent.putExtra("quiz_taken", qt);
+//
+//                        //intent.putExtra("",);
+//
+//                        startActivity(intent);
+//                    }
+//                    else{
+//                        password.setError("Wrong Password");
+//                        password.requestFocus();
+//                    }
+//
+//                }
+//                else{
+//                    username.setError("No User found");
+//                    username.requestFocus();
+//                }
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//
+//            }
+//        });
+//
+//    }
     public void onBackPressed() {
         finish();
         super.onBackPressed();

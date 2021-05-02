@@ -23,7 +23,7 @@
         <activity android:name=".User.Section_2" />
         <activity android:name=".User.UserProfile" />
         <activity android:name=".User.Section_1" />
-        <activity android:name=".Common.LoginSignup.StartUpScreen" />
+<!--        <activity android:name=".Common.LoginSignup.StartUpScreen" />-->
         <activity android:name=".User.AllCategories" />
         <activity android:name=".User.UserDashboard" />
         <activity android:name=".Common.OnBoarding" />

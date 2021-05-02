@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Common.LoginSignup.StartUpScreen"
+    tools:context=".User.Login"
     android:background="@color/white"
     android:padding="30dp">
 
@@ -15,21 +15,22 @@
 
 
         <ImageView
+            android:id="@+id/logo_startup"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="250dp"
+
             android:src="@drawable/aurtistic_startup_logo"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="120dp"
-            android:text="@string/heading"
-            android:textSize="36sp"
-            android:textColor="@color/black"
             android:layout_gravity="center"
-            android:textAlignment="center"
             android:fontFamily="@font/muli_bold"
-            android:textAllCaps="true"/>
+            android:text="@string/heading"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="36sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,27 +44,71 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_marginTop="40dp">
 
-            <Button
-                android:layout_width="0dp"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/login"
-                android:layout_marginRight="10dp"
-                android:onClick="callLogin"
-                android:background="#add8e6"
+                android:text="Sign In Using:"
                 android:textColor="@color/black"
-                android:layout_weight="1"/>
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/muli_light" />
 
-            <Button
-                android:layout_width="0dp"
+
+            <ImageView
+                android:id="@+id/gsignin1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/google_signin" />
+
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:text="OR"
+                android:layout_marginTop="20dp"
                 android:textColor="@color/black"
-                android:onClick="callSignup"
-                android:background="#add8e6"
-                android:text="@string/signup"
-                android:layout_weight="1"/>
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/muli_light" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/fsignin1"-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:src="@drawable/fb_signin" />-->
+
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:text="@string/login"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:onClick="callLogin"-->
+<!--                android:background="#add8e6"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_weight="1"/>-->
+
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:text="@string/login_fb"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:onClick="callLogin"-->
+<!--                android:background="#add8e6"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_weight="1"/>-->
+
+
+
 
 
         </LinearLayout>
@@ -83,4 +128,4 @@
 
 
 
-</ScrollView>
+</RelativeLayout>

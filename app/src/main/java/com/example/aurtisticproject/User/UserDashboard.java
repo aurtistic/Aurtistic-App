@@ -235,7 +235,8 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
         ArrayList<MostViewedHelperClass> mostViewedLocations = new ArrayList<>();
         mostViewedLocations.add(new MostViewedHelperClass(R.drawable.bhavana_mam, "Ms. Bhavana Kaushik", "(Mentor, Aurtistic)" ,"Working with Team Aurtistic as a mentor is an honour for me. Team grouped up together quickly and collected the authentic data from various NGOs and counselors who deals with Autistic people.  Application is designed in very user-friendly manner keeping in mind the capabilities of person with ASD and will open the doors for people associated with ASD child and adult as a parents and caretakers. This is surely a great initiative and my best wishes are with the Team Aurtistic." ));
-        mostViewedLocations.add(new MostViewedHelperClass(R.drawable.karma_maam, "Karma Lhamo Dulal", "(Journalism Student)","Reviews by Karma Ma'am"));
+        mostViewedLocations.add(new MostViewedHelperClass(R.drawable.karma_maam, "Karma Lhamo Dulal", "(Journalism Student, UN Volunteer)","One significant element that I’ve observed in Team Aurtistic is Empathy. The emotion isn’t very a fancy one and doesn’t reside in all. But, I’m delighted that a group of young talented boys have come forward to celebrate diversity and equality in the form of developing an app for the autistic people. However, these young talents have sorted a perfect solution by reaping the benefit of multimedia. The perseverance will decided a long way and for that journey I wish them the best of luck. \n\n" +
+                "Best, Karma"));
 //        mostViewedLocations.add(new MostViewedHelperClass(R.drawable.city_1, "J."));
 //        mostViewedLocations.add(new MostViewedHelperClass(R.drawable.mcdonald_img, "Walmart"));
 
@@ -263,8 +264,8 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
     //Calls
 
-    public void callStartup(View view){
-        startActivity(new Intent(getApplicationContext(), StartUpScreen.class));
+    public void callLogin(View view){
+        startActivity(new Intent(getApplicationContext(), Login.class));
     }
 
     public void callSection_1(View view){

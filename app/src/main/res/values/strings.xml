@@ -81,7 +81,8 @@
     <string name="section_4">AURTISTIC STORIES</string>
     <string name="section_5">STUDY TIME</string>
     <string name="section_6">QUIZ TIME</string>
-    <string name="login">LOGIN</string>
+    <string name="login">LOGIN WITH GOOGLE</string>
+    <string name="login_fb">LOGIN WITH FACEBOOK</string>
     <string name="profile">PROFILE</string>
     <string name="logout">LOGOUT</string>
 <!--    <string name="default_web_client_id">673608040135-57g3euo65fb4l9u0ga8o62064d72e3m7.apps.googleusercontent.com</string>-->

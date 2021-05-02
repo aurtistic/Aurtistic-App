@@ -33,6 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/ms_title"
+            android:textSize="10sp"
             android:layout_marginTop="-18dp"
             android:text="(Mentor, Aurtistic)"
             android:padding="10dp"
@@ -40,12 +41,12 @@
 
         <TextView
             android:id="@+id/mv_desc"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_below="@+id/designation"
             android:layout_marginLeft="125dp"
             android:layout_marginRight="20dp"
-            android:textSize="13sp"
+            android:textSize="11sp"
             android:layout_marginBottom="-20dp"
             android:text="Reviews by ma'am..." />
 
@@ -55,7 +56,7 @@
             android:layout_height="40dp"
             android:layout_marginLeft="-2dp"
             android:layout_toRightOf="@id/mv_image"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:src="@drawable/quotes_icon" />
 
 
