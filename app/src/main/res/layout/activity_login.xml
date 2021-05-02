@@ -102,6 +102,20 @@
             android:layout_marginBottom="5dp"/>
 
         <Button
+            android:id="@+id/gsignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Sign in"
+            />
+
+        <Button
+            android:id="@+id/fsignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="facebook Sign in"
+            />
+
+        <Button
             android:id="@+id/sign_up_screen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

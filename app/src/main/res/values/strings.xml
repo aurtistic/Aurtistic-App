@@ -84,5 +84,6 @@
     <string name="login">LOGIN</string>
     <string name="profile">PROFILE</string>
     <string name="logout">LOGOUT</string>
+<!--    <string name="default_web_client_id">673608040135-57g3euo65fb4l9u0ga8o62064d72e3m7.apps.googleusercontent.com</string>-->
 
 </resources>
