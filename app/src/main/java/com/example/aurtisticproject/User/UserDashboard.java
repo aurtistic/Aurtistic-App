@@ -216,9 +216,9 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         categoriesHelperClasses.add(new CategoriesHelperClass(gradient2, R.drawable.know_more_design_updated, "What is ASD?"));
         categoriesHelperClasses.add(new CategoriesHelperClass(gradient1, R.drawable.beautiful, "Autism is beautiful"));
         categoriesHelperClasses.add(new CategoriesHelperClass(gradient3, R.drawable.efforts, "Efforts of Aurtistic"));
-        categoriesHelperClasses.add(new CategoriesHelperClass(gradient4, R.drawable.stories_updated, "Aurtistic Stories"));
-        categoriesHelperClasses.add(new CategoriesHelperClass(gradient1, R.drawable.study, "Study Time"));
-        categoriesHelperClasses.add(new CategoriesHelperClass(gradient2, R.drawable.quiz_updated, "Quiz Time"));
+//        categoriesHelperClasses.add(new CategoriesHelperClass(gradient4, R.drawable.stories_updated, "Aurtistic Stories"));
+//        categoriesHelperClasses.add(new CategoriesHelperClass(gradient1, R.drawable.study, "Study Time"));
+//        categoriesHelperClasses.add(new CategoriesHelperClass(gradient2, R.drawable.quiz_updated, "Quiz Time"));
 
 
         categoriesRecycler.setHasFixedSize(true);
@@ -285,6 +285,10 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
     public void callWork_for_Aurtistic(View view){
         startActivity(new Intent(getApplicationContext(), Work_for_Aurtistic.class));
+    }
+
+    public void call_all_cat(View view){
+        startActivity(new Intent(getApplicationContext(), AllCategories.class));
     }
 
 
