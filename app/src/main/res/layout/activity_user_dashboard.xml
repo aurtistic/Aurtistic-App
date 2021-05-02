@@ -74,33 +74,33 @@
                         android:text="@string/logo_name"
                         android:textSize="28sp" />
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_below="@+id/app_name"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginRight="40dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="@color/white"
-                        android:elevation="8dp">
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="40dp"-->
+<!--                        android:layout_below="@+id/app_name"-->
+<!--                        android:layout_marginLeft="40dp"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:layout_marginRight="40dp"-->
+<!--                        android:layout_marginBottom="20dp"-->
+<!--                        android:background="@color/white"-->
+<!--                        android:elevation="8dp">-->
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="15dp"
-                            android:text="@string/search_text" />
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_centerVertical="true"-->
+<!--                            android:layout_marginLeft="15dp"-->
+<!--                            android:text="@string/search_text" />-->
 
-                        <ImageView
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentRight="true"
-                            android:layout_centerVertical="true"
-                            android:layout_marginRight="15dp"
-                            android:src="@drawable/search_icon" />
+<!--                        <ImageView-->
+<!--                            android:layout_width="30dp"-->
+<!--                            android:layout_height="30dp"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:layout_centerVertical="true"-->
+<!--                            android:layout_marginRight="15dp"-->
+<!--                            android:src="@drawable/search_icon" />-->
 
-                    </RelativeLayout>
+<!--                    </RelativeLayout>-->
 
                 </RelativeLayout>
 
@@ -110,41 +110,42 @@
                     android:layout_gravity="center"
                     android:orientation="horizontal">
 
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="60dp"-->
+<!--                            android:layout_height="60dp"-->
+<!--                            android:layout_margin="10dp"-->
+<!--                            android:onClick="callSection_1"-->
+<!--                            android:background="@drawable/card_1"-->
+<!--                            android:elevation="8dp">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="30dp"-->
+<!--                                android:layout_height="30dp"-->
+<!--                                android:layout_centerInParent="true"-->
+<!--                                android:src="@drawable/question_mark_icon_50px" />-->
+
+
+<!--                        </RelativeLayout>-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="38dp"-->
+<!--                            android:gravity="center_horizontal"-->
+<!--                            android:text="@string/what_is_asd"-->
+<!--                            android:textAlignment="center" />-->
+
+
+<!--                    </LinearLayout>-->
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <RelativeLayout
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:layout_margin="10dp"
-                            android:onClick="callSection_1"
-                            android:background="@drawable/card_1"
-                            android:elevation="8dp">
-
-                            <ImageView
-                                android:layout_width="30dp"
-                                android:layout_height="30dp"
-                                android:layout_centerInParent="true"
-                                android:src="@drawable/question_mark_icon_50px" />
-
-
-                        </RelativeLayout>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="38dp"
-                            android:gravity="center_horizontal"
-                            android:text="@string/what_is_asd"
-                            android:textAlignment="center" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
                         android:orientation="vertical">
 
                         <RelativeLayout
@@ -156,10 +157,10 @@
                             android:elevation="8dp">
 
                             <ImageView
-                                android:layout_width="30dp"
-                                android:layout_height="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/pen_icon_changed" />
+                                android:src="@drawable/map_updated" />
 
 
                         </RelativeLayout>
@@ -168,7 +169,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="36dp"
                             android:gravity="center_horizontal"
-                            android:text="@string/autism_is_beautiful"
+                            android:text="@string/look_around"
                             android:textAlignment="center" />
 
 
@@ -177,6 +178,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
                         android:orientation="vertical">
 
                         <RelativeLayout
@@ -191,7 +193,7 @@
                                 android:layout_width="39dp"
                                 android:layout_height="39dp"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/efforts_icon_changed" />
+                                android:src="@drawable/helpp" />
 
 
                         </RelativeLayout>
@@ -200,7 +202,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="37dp"
                             android:gravity="center_horizontal"
-                            android:text="@string/efforts_of_aurtistic"
+                            android:text="@string/help_yourself"
                             android:textAlignment="center" />
 
 
@@ -208,6 +210,7 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
+                        android:layout_marginTop="20dp"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
@@ -220,10 +223,10 @@
                             android:elevation="8dp">
 
                             <ImageView
-                                android:layout_width="30dp"
-                                android:layout_height="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/stories_icon" />
+                                android:src="@drawable/asdisbeaut" />
 
 
                         </RelativeLayout>
@@ -232,7 +235,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="37dp"
                             android:gravity="center_horizontal"
-                            android:text="@string/aurtistic_stories"
+                            android:text="@string/autism_is_beautiful"
                             android:textAlignment="center" />
 
 
@@ -241,6 +244,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
                         android:orientation="vertical">
 
                         <RelativeLayout
@@ -252,17 +256,17 @@
                             android:elevation="8dp">
 
                             <ImageView
-                                android:layout_width="30dp"
-                                android:layout_height="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/handshake_icon" />
+                                android:src="@drawable/workforaurt" />
 
 
                         </RelativeLayout>
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="38dp"
                             android:gravity="center_horizontal"
                             android:text="@string/work_for_aurtistic"
                             android:textAlignment="center" />
@@ -340,12 +344,12 @@
                             android:textColor="@color/colorAccent"
                             android:textSize="20sp" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:layout_centerVertical="true"
-                            android:text="@string/view_all" />
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:layout_centerVertical="true"-->
+<!--                            android:text="@string/view_all" />-->
 
 
                     </RelativeLayout>
@@ -383,6 +387,7 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
                             android:layout_centerVertical="true"
+                            android:onClick="call_all_cat"
                             android:text="@string/view_all" />
 
 

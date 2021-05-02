@@ -21,14 +21,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Know about Autism"
+            android:layout_marginTop="-10dp"
+            android:layout_centerHorizontal="true"
             android:textSize="20sp"
             android:fontFamily="@font/baloo_bold"/>
 
         <ImageView
             android:id="@+id/categories_image"
-            android:layout_width="150dp"
-            android:layout_height="700dp"
-            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:src="@drawable/autism_awareness" />
 
     </RelativeLayout>
