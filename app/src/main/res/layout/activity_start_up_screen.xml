@@ -76,6 +76,16 @@
                 android:textAlignment="center"
                 android:fontFamily="@font/muli_light" />
 
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/fsignin"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Continue with Facebook"
+                />
+
 <!--            <ImageView-->
 <!--                android:id="@+id/fsignin1"-->
 <!--                android:layout_width="25dp"-->

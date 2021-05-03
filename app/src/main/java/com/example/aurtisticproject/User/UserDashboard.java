@@ -152,7 +152,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
         switch (item.getItemId()) {
             case R.id.login:
-                startActivity(new Intent(getApplicationContext(), StartUpScreen.class));
+                startActivity(new Intent(getApplicationContext(), Login.class));
                 break;
         }
 
