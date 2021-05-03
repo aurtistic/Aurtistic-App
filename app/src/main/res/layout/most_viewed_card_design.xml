@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -11,22 +12,23 @@
         android:layout_height="490dp"
         android:padding="10dp">
 
-        <ImageView
-            android:id="@+id/mv_image"
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:src="@drawable/bhavana_mam"
-            android:scaleType="centerCrop"/>
+<!--        <ImageView-->
+<!--            android:id="@+id/mv_image"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:src="@drawable/bhavana_mam"-->
+<!--            android:scaleType="centerCrop"/>-->
 
         <TextView
             android:id="@+id/ms_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ms. Bhavana Kaushik"
-            android:layout_toRightOf="@+id/mv_image"
+
             android:layout_marginLeft="10dp"
             android:textSize="20sp"
             android:fontFamily="@font/baloo_bold"/>
+<!--        android:layout_toRightOf="@+id/mv_image"-->
 
         <TextView
             android:id="@+id/designation"
@@ -36,28 +38,34 @@
             android:textSize="10sp"
             android:layout_marginTop="-18dp"
             android:text="(Mentor, Aurtistic)"
-            android:padding="10dp"
-            android:layout_toRightOf="@id/mv_image"/>
+            android:padding="10dp" />
+<!--        android:layout_toRightOf="@id/mv_image"-->
 
         <TextView
             android:id="@+id/mv_desc"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_below="@+id/designation"
-            android:layout_marginLeft="125dp"
             android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:layout_toRightOf="@+id/quotes_icon"
             android:textSize="11sp"
             android:layout_marginBottom="-20dp"
-            android:text="Reviews by ma'am..." />
+            android:text="Reviews by ma'am..."
+             />
+
+
+
 
         <ImageView
             android:id="@+id/quotes_icon"
             android:layout_width="30dp"
             android:layout_height="40dp"
             android:layout_marginLeft="-2dp"
-            android:layout_toRightOf="@id/mv_image"
+
             android:layout_marginTop="30dp"
             android:src="@drawable/quotes_icon" />
+<!--        android:layout_toRightOf="@id/mv_image"-->
 
 
     </RelativeLayout>

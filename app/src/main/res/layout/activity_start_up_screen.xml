@@ -59,32 +59,32 @@
 
             <ImageView
                 android:id="@+id/gsignin1"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:src="@drawable/google_signin" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="OR"
-                android:layout_marginTop="20dp"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:layout_gravity="center"
-                android:textAlignment="center"
-                android:fontFamily="@font/muli_light" />
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="OR"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15sp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textAlignment="center"-->
+<!--                android:fontFamily="@font/muli_light" />-->
 
-            <com.facebook.login.widget.LoginButton
-                android:id="@+id/fsignin"
-                android:padding="10dp"
-                android:layout_marginTop="15dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="Continue with Facebook"
-                />
+<!--            <com.facebook.login.widget.LoginButton-->
+<!--                android:id="@+id/fsignin"-->
+<!--                android:padding="10dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:text="Continue with Facebook"-->
+<!--                />-->
 
 <!--            <ImageView-->
 <!--                android:id="@+id/fsignin1"-->

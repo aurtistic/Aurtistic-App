@@ -11,6 +11,7 @@ android {
         applicationId "com.example.vikasojha.quizbee"
         minSdkVersion 16
         targetSdkVersion 30
+        multiDexEnabled true
         versionCode 1
         versionName "1.0"
     }
@@ -47,7 +48,7 @@ dependencies {
     // Also declare the dependency for the Google Play services library and specify its version
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
 
-    implementation 'com.facebook.android:facebook-android-sdk:5.15.3'
+//    implementation 'com.facebook.android:facebook-android-sdk:[8,9)'
 
 
 }
