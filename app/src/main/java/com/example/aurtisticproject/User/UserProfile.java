@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.aurtisticproject.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -24,9 +25,18 @@ public class UserProfile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
+                Login.logout=true;
                 Intent intent = new Intent(getApplicationContext(), Login.class);
                 startActivity(intent);
             }
         });
     }
-}
+
+
+    @Override
+    public void onBackPressed() {
+            finishAffinity();
+            Intent a = new Intent(getApplicationContext(), UserDashboard.class);
+            startActivity(a);
+        }
+    }

@@ -45,6 +45,8 @@ public class Login extends AppCompatActivity {
 
     Button CallSignUp, login_btn;
 
+    static boolean logout=true;
+
     ImageView image, G_signin , fb_signin;
 
     static String user;
@@ -58,6 +60,11 @@ public class Login extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        if(!logout)
+        {
+            Intent intent = new Intent(getApplicationContext(),UserProfile.class);
+            startActivity(intent);
+        }
         FirebaseUser user = mAuth.getCurrentUser();
         if(user!=null)
         {
@@ -248,6 +255,7 @@ public class Login extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
 
                             FirebaseUser user = mAuth.getCurrentUser();
+                            logout=false;
                             Intent intent = new Intent(Login.this,UserProfile.class);
                             startActivity(intent);
 
@@ -365,8 +373,13 @@ public class Login extends AppCompatActivity {
 //        });
 //
 //    }
-    public void onBackPressed() {
-        finish();
-        super.onBackPressed();
-    }
+@Override
+public void onBackPressed() {
+    finishAffinity();
+    Intent myIntent = new Intent(getApplicationContext(), UserDashboard.class);
+
+//            myIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+    startActivity(myIntent);
+}
+    // toolbar.setTitle("Dashboard");
 }
