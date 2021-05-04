@@ -29,7 +29,7 @@
         <activity android:name=".User.Section_5" />
         <activity android:name=".User.Section_4" />
         <activity android:name=".User.Section_3" />
-        <activity android:name=".User.Section_2" />
+        <activity android:name=".User.LookAroundYourself" />
         <activity android:name=".User.UserProfile" />
         <activity android:name=".User.Section_1" /> <!-- <activity android:name=".Common.LoginSignup.StartUpScreen" /> -->
         <activity android:name=".User.AllCategories" />

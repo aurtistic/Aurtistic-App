@@ -8,11 +8,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.ClipData;
 import android.content.Intent;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
@@ -20,15 +18,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.example.aurtisticproject.Admin.Work_for_Aurtistic;
-import com.example.aurtisticproject.Common.LoginSignup.StartUpScreen;
 import com.example.aurtisticproject.HelperClasses.HomeAdapter.FeaturedAdapter;
 import com.example.aurtisticproject.HelperClasses.HomeAdapter.FeaturedHelperClass;
 import com.example.aurtisticproject.R;
 
 import java.util.ArrayList;
 
-import com.example.aurtisticproject.HelperClasses.HomeAdapter.FeaturedAdapter;
-import com.example.aurtisticproject.HelperClasses.HomeAdapter.FeaturedHelperClass;
 import com.example.aurtisticproject.HelperClasses.HomeAdapter.MostViewedAdapter;
 import com.example.aurtisticproject.HelperClasses.HomeAdapter.MostViewedHelperClass;
 import com.example.aurtisticproject.HelperClasses.HomeAdapter.CategoriesAdapter;
@@ -170,7 +165,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
         switch (item.getItemId()) {
             case R.id.section_2:
-                startActivity(new Intent(getApplicationContext(), Section_2.class));
+                startActivity(new Intent(getApplicationContext(), LookAroundYourself.class));
                 break;
         }
 
@@ -272,8 +267,8 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         startActivity(new Intent(getApplicationContext(), Section_1.class));
     }
 
-    public void callSection_2(View view){
-        startActivity(new Intent(getApplicationContext(), Section_2.class));
+    public void call_look_around_yourself(View view){
+        startActivity(new Intent(getApplicationContext(), LookAroundYourself.class));
     }
 
     public void callSection_3(View view){

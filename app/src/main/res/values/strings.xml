@@ -69,6 +69,39 @@
     <string name="tagline">Where Art meets Autism</string>
     <string name="signup">SIGNUP</string>
     <string name="work">HOW DOES AURTISTIC WORK?</string>
+    
+<!--    States-->
+    
+    <string name="state1">Andhra Pradesh</string>
+    <string name="state2">Arunachal Pradesh</string>
+    <string name="state3">Assam</string>
+    <string name="state4">Bihar</string>
+    <string name="state5">Chattisgarh</string>
+    <string name="state6">Goa</string>
+    <string name="state7">Gujarat</string>
+    <string name="state8">Haryana</string>
+    <string name="state9">Himachal Pradesh</string>
+    <string name="state10">Jharkhand</string>
+    <string name="state11">Karnataka</string>
+    <string name="state12">Kerala</string>
+    <string name="state13">Madhya Pradesh</string>
+    <string name="state14">Maharashtra</string>
+    <string name="state15">Manipur</string>
+    <string name="state16">Meghalaya</string>
+    <string name="state17">Mizoram</string>
+    <string name="state18">Nagaland</string>
+    <string name="state19">NCT of Delhi</string>
+    <string name="state20">Odisha</string>
+    <string name="state21">Punjab</string>
+    <string name="state22">Rajasthan</string>
+    <string name="state23">Sikkim</string>
+    <string name="state24">Tamil Nadu</string>
+    <string name="state25">Telangana</string>
+    <string name="state26">Tripura</string>
+    <string name="state27">Uttarakhand</string>
+    <string name="state28">Uttar Pradesh</string>
+    <string name="state29">West Bengal</string>
+
 
     <!--    Navigation Drawer Titles-->
 

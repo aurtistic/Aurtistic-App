@@ -152,7 +152,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_margin="10dp"
-                            android:onClick="callSection_2"
+                            android:onClick="call_look_around_yourself"
                             android:background="@drawable/card_2"
                             android:elevation="8dp">
 

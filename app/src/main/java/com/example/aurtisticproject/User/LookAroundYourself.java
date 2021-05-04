@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.aurtisticproject.R;
 
-public class Section_2 extends AppCompatActivity {
+public class LookAroundYourself extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_section_2);
+        setContentView(R.layout.activity_look_around_yourself);
     }
 }
