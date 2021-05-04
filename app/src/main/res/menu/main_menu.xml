@@ -12,10 +12,10 @@
             android:title="@string/home" />
 
 
-        <item
-            android:id="@+id/nav_search"
-            android:icon="@drawable/search_icon_modified"
-            android:title="@string/search" />
+<!--        <item-->
+<!--            android:id="@+id/nav_search"-->
+<!--            android:icon="@drawable/search_icon_modified"-->
+<!--            android:title="@string/search" />-->
 
         <item
             android:id="@+id/nav_all_categories"

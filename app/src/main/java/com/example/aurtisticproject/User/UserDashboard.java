@@ -292,5 +292,9 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         startActivity(new Intent(getApplicationContext(), AllCategories.class));
     }
 
+    public void call_help_yourself(View view){
+        startActivity(new Intent(getApplicationContext(), HelpYourself.class));
+    }
+
 
 }

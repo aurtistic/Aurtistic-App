@@ -12,12 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-<!--        <meta-data-->
-<!--            android:name="com.facebook.sdk.ApplicationId"-->
-<!--            android:value="@string/facebook_app_id" />-->
-<!--        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" android:name="com.facebook.FacebookActivity"-->
-<!--            tools:replace="android:theme"/>-->
-        <activity android:name=".User.QuizResult"></activity>
+        <activity android:name=".User.HelpYourself"></activity>
+        <!-- <meta-data -->
+        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+        <!-- android:value="@string/facebook_app_id" /> -->
+        <!-- <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" -->
+        <!-- tools:replace="android:theme"/> -->
+        <activity android:name=".User.QuizResult" />
         <activity android:name=".User.Section1" />
         <activity android:name=".Common.UserHelper" />
         <activity android:name=".Common.HowDoesAurtisticWork" />
@@ -30,8 +31,7 @@
         <activity android:name=".User.Section_3" />
         <activity android:name=".User.Section_2" />
         <activity android:name=".User.UserProfile" />
-        <activity android:name=".User.Section_1" />
-<!--        <activity android:name=".Common.LoginSignup.StartUpScreen" />-->
+        <activity android:name=".User.Section_1" /> <!-- <activity android:name=".Common.LoginSignup.StartUpScreen" /> -->
         <activity android:name=".User.AllCategories" />
         <activity android:name=".User.UserDashboard" />
         <activity android:name=".Common.OnBoarding" />
