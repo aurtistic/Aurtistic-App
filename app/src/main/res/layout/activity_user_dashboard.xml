@@ -185,13 +185,12 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_margin="10dp"
-                            android:onClick="callSection_3"
+                            android:onClick="call_help_yourself"
                             android:background="@drawable/card_3"
                             android:elevation="8dp">
 
                             <ImageView
                                 android:layout_width="39dp"
-                                android:onClick="call_help_yourself"
                                 android:layout_height="39dp"
                                 android:layout_centerInParent="true"
                                 android:src="@drawable/helpp" />
