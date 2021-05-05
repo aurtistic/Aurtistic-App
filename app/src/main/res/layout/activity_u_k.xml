@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_chattisgarh"
+    android:layout_height="match_parent"
+    tools:context=".UK">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uttarakhand"
+            android:textSize="26sp"
+            android:fontFamily="@font/sf_black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:padding="20dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Schools"
+            android:textSize="16sp"
+            android:fontFamily="@font/sf_black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:padding="25dp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_Uttrakhand1"
+            android:onClick="call_school_Uttrakhand1"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_Uttrakhand2"
+            android:onClick="call_school_Uttrakhand2"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_Uttrakhand3"
+            android:onClick="call_school_Uttrakhand3"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_Uttrakhand4"
+            android:onClick="call_school_Uttrakhand4"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_Uttrakhand5"
+            android:onClick="call_school_Uttrakhand5"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_Uttrakhand6"
+            android:onClick="call_school_Uttrakhand6"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_Uttrakhand7"
+            android:onClick="call_school_Uttrakhand7"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_Uttrakhand8"
+            android:onClick="call_school_Uttrakhand8"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+    </LinearLayout>
+
+</ScrollView>

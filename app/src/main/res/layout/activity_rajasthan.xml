@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_chattisgarh"
+    android:layout_height="match_parent"
+    tools:context=".Rajasthan">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rajasthan"
+            android:textSize="26sp"
+            android:fontFamily="@font/sf_black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:padding="20dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Schools"
+            android:textSize="16sp"
+            android:fontFamily="@font/sf_black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:padding="25dp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan1"
+            android:onClick="call_school_Rajasthan1"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan2"
+            android:onClick="call_school_Rajasthan2"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan3"
+            android:onClick="call_school_Rajasthan3"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan4"
+            android:onClick="call_school_Rajasthan4"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan5"
+            android:onClick="call_school_Rajasthan5"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan6"
+            android:onClick="call_school_Rajasthan6"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan7"
+            android:onClick="call_school_Rajasthan7"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan8"
+            android:onClick="call_school_Rajasthan8"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan9"
+            android:onClick="call_school_Rajasthan9"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan10"
+            android:onClick="call_school_Rajasthan10"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan11"
+            android:onClick="call_school_Rajasthan11"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan12"
+            android:onClick="call_school_Rajasthan12"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan13"
+            android:onClick="call_school_Rajasthan13"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_rajasthan14"
+            android:onClick="call_school_Rajasthan14"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
