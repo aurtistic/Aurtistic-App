@@ -61,4 +61,43 @@ public class LookAroundYourself extends AppCompatActivity {
         Uri uri = Uri.parse(s);
         startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
+
+    public void call_karnataka(View view) {
+        startActivity(new Intent(this, Karnataka.class));
+    }
+    public void call_kerala(View view) {
+        startActivity(new Intent(this, Kerala.class));
+    }
+
+    public void call_madhya_pradesh(View view) {
+        startActivity(new Intent(this, MadhyaPradesh.class));
+    }
+
+    public void call_maharashtra(View view) {
+        startActivity(new Intent(this, Maharashtra.class));
+    }
+
+    public void call_manipur(View view) {
+        startActivity(new Intent(this, Manipur.class));
+    }
+
+    public void call_meghalaya(View view) {
+        startActivity(new Intent(this, Meghalaya.class));
+
+    }
+
+    public void call_mizoram(View view) {
+        startActivity(new Intent(this, Mizoram.class));
+    }
+    public void call_nagaland(View view) {
+        startActivity(new Intent(this,Nagaland.class));
+    }
+    public void call_delhi(View view) {
+        startActivity(new Intent(this,Delhi.class));
+    }
+
+
+    public void call_odisha(View view) {
+        startActivity(new Intent(this,Odisha.class));
+    }
 }

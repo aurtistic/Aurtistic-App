@@ -189,6 +189,73 @@
     <string name="school_jharkhand5">Pradip Centre For Autism Management</string>
     <string name="school_jharkhand6">Jeevan Jyoti School For Special Children</string>
 
+
+    <!--    Karnataka Schools-->
+    <string name="school100">Perseverance Autism School</string>
+    <string name="school101">Arivu Early Intervention Center</string>
+    <string name="school102">Sambhavam Center for Autism</string>
+    <string name="school103">Be Change Centre for Autism</string>
+    <string name="school104">Early Autism Services</string>
+    <string name="school105">Colours Centre for Learning - Autism</string>
+
+    <!--    Kerala Schools-->
+    <string name="school106">CADRRE -The Autism School</string>
+    <string name="school107">Lisa School of Autism</string>
+    <string name="school108">Heal AUTISM Centre</string>
+    <string name="school109">Snehanilayam Special School</string>
+    <string name="school110">Autism Sisu Kshema Kendram</string>
+
+    <!--    MadhyaPradesh Schools-->
+    <string name="school111">Mom Belief Balkrishna</string>
+    <string name="school112">Parth Development Society</string>
+    <string name="school135">Manovikas Special Scool</string>
+    <string name="school136">Nav Jyoti Special School</string>
+
+
+    <!--    Maharashtra Schools-->
+    <string name="school113"> DAWN Autism School</string>
+    <string name="school114">Prasanna Autism Centre</string>
+    <string name="school115">Saiyam Autism Center</string>
+    <string name="school116">Aarambh Autism Center</string>
+    <string name="school117">Organization for Autistic Individuals</string>
+    <string name="school118">Ashiana Institute For Autism</string>
+    <string name="school137">Asmita Special School</string>
+    <string name="school138">Vishwas Samarpit Special School</string>
+
+    <!--    Manipur Schools-->
+    <string name="school139">Special School For H.I.</string>
+    <string name="school140">Arbri Special Child Development Centre</string>
+
+
+    <!--    Meghalaya Schools-->
+
+    <!--    Mizoram Schools-->
+    <string name="school119"> Gilead Special School</string>
+    <string name="school141">Mizoram Special Hindi School</string>
+    <string name="school142">Shining star special school</string>
+    <string name="school143">Shalom Special School</string>
+
+    <!--    Nagaland Schools-->
+
+    <!--    Delhi Schools-->
+    <string name="school120">Delhi Special School</string>
+    <string name="school121">Autism School</string>
+    <string name="school122">Action for Autism</string>
+    <string name="school123">Brahma Shakti Special School</string>
+    <string name="school124">Children Valley Special School</string>
+    <string name="school125">Holy Heart Special School</string>
+    <string name="school126">Nishta Special School</string>
+    <string name="school127">Sampoorn Delhi Special School</string>
+    <string name="school128">Parvarish Special School</string>
+
+    <!--    Odisha Schools-->
+
+    <string name="school129">Centre for Autism Therapy, Counselling and Help</string>
+    <string name="school130">The Institute For Helping The Disabled</string>
+    <string name="school131">Taare Zameen Par School</string>
+    <string name="school132">Swabhiman</string>
+    <string name="school133">Ashadeep Special School For C.p. Children</string>
+    <string name="school134">Wood-apple School</string>
     <!--    Navigation Drawer Titles-->
 
     <string name="home">HOME</string>
@@ -205,6 +272,8 @@
     <string name="profile">PROFILE</string>
     <string name="logout">LOGOUT</string>
     <string name="facebook_app_id">832478750865768</string>
+
+
     <!--    <string name="default_web_client_id">673608040135-57g3euo65fb4l9u0ga8o62064d72e3m7.apps.googleusercontent.com</string>-->
 
 </resources>
