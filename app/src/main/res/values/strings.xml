@@ -177,7 +177,17 @@
 
     <!--    Himachal Pradesh Schools-->
 
+    <string name="school_hp1">Sakar Special School</string>
+    <string name="school_hp2">Sakar Society For Differently Abled People</string>
+
     <!--    Jharkhand Schools-->
+
+    <string name="school_jharkhand1">Child Concern - Autism, CP, ID, ADHD, Hearing &amp; Blind Special Education Centre</string>
+    <string name="school_jharkhand2">Santhal Special School</string>
+    <string name="school_jharkhand3">Deepshikha Institute For Child Development And Mental</string>
+    <string name="school_jharkhand4">Deoghar Special School, Sparsh</string>
+    <string name="school_jharkhand5">Pradip Centre For Autism Management</string>
+    <string name="school_jharkhand6">Jeevan Jyoti School For Special Children</string>
 
     <!--    Navigation Drawer Titles-->
 
