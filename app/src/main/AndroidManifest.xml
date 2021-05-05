@@ -12,15 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".WB"></activity>
-        <activity android:name=".UK" />
-        <activity android:name=".UP" />
-        <activity android:name=".Tripura" />
-        <activity android:name=".Telangana" />
-        <activity android:name=".TamilNadu" />
-        <activity android:name=".Sikkim" />
-        <activity android:name=".Rajasthan" />
-        <activity android:name=".ArunachalPradesh" />
+        <activity android:name=".ArunachalPradesh"></activity>
         <activity android:name=".Jharkhand" />
         <activity android:name=".HimachalPradesh" />
         <activity android:name=".Haryana" />

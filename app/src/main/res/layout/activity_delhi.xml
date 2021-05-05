@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_chattisgarh"
+    tools:context=".User.Delhi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sf_black"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="delhi"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sf_black"
+            android:gravity="center_horizontal"
+            android:padding="25dp"
+            android:text="Special Schools"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school120"
+            android:text="@string/school120"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school121"
+            android:text="@string/school121"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school122"
+            android:text="@string/school122"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school123"
+            android:text="@string/school123"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school124"
+            android:text="@string/school124"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school125"
+            android:text="@string/school125"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school126"
+            android:text="@string/school126"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school127"
+            android:text="@string/school127"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school128"
+            android:text="@string/school128"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+</ScrollView>

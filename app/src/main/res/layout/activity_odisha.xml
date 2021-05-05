@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Odisha">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/sf_black"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="Odisha"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/sf_black"
+        android:gravity="center_horizontal"
+        android:padding="25dp"
+        android:text="Special Schools"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#F4C2C2"
+        android:onClick="call_school129"
+        android:text="@string/school129"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school130"
+            android:text="@string/school130"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school131"
+            android:text="@string/school131"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school132"
+            android:text="@string/school132"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school133"
+            android:text="@string/school133"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F4C2C2"
+            android:onClick="call_school134"
+            android:text="@string/school134"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>
