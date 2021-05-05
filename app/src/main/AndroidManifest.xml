@@ -13,6 +13,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".AndhraPradesh"></activity>
+        <activity android:name=".User.Delhi"></activity>
+        <activity android:name=".User.Kerala"></activity>
+        <activity android:name=".User.Karnataka"></activity>
+        <activity android:name=".User.MadhyaPradesh"></activity>
+        <activity android:name=".User.Maharashtra"></activity>
+        <activity android:name=".User.Manipur"></activity>
+        <activity android:name=".User.Meghalaya"></activity>
+        <activity android:name=".User.Mizoram"></activity>
+        <activity android:name=".User.Nagaland"></activity>
+        <activity android:name=".User.Odisha"></activity>
+        <activity android:name=".ArunachalPradesh"></activity>
+        <activity android:name=".Assam"></activity>
+        <activity android:name=".Bihar"></activity>
+        <activity android:name=".Chattisgarh"></activity>
+        <activity android:name=".Goa"></activity>
+        <activity android:name=".Gujarat"></activity>
+        <activity android:name=".Haryana"></activity>
+        <activity android:name=".HimachalPradesh"></activity>
+        <activity android:name=".Jharkhand"></activity>
         <activity android:name=".User.HelpYourself" /> <!-- <meta-data -->
         <!-- android:name="com.facebook.sdk.ApplicationId" -->
         <!-- android:value="@string/facebook_app_id" /> -->
@@ -35,7 +54,7 @@
         <activity android:name=".User.AllCategories" />
         <activity android:name=".User.UserDashboard" />
         <activity android:name=".Common.OnBoarding" />
-        <activity android:name=".Test" />
+        <activity android:name=".Test"/>
         <activity android:name=".Common.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
