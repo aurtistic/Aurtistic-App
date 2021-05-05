@@ -149,7 +149,31 @@
 
     <!--    Gujarat Schools-->
 
+    <string name="school_gujarat1">Disha Special School &amp; Autism Centre</string>
+    <string name="school_gujarat2">ANOORA - Learning Center For Special Kids</string>
+    <string name="school_gujarat3">Sai Residential School For Mentally Challenged</string>
+    <string name="school_gujarat4">Krupp Industries Educational Center</string>
+    <string name="school_gujarat5">Dew Drops Child Health Care - ABA THERAPY</string>
+    <string name="school_gujarat6">Kalrav Special School</string>
+    <string name="school_gujarat7">Pearl Special Needs Foundation</string>
+    <string name="school_gujarat8">New Way Special School</string>
+    <string name="school_gujarat9">Samvedna Learning Centre For Special Children</string>
+    <string name="school_gujarat10">Sree Nandan School</string>
+    <string name="school_gujarat11">Shri K.G. Vidhyalay</string>
+    <string name="school_gujarat12">Dew Drops Child HealthCare - Autism</string>
+
     <!--    Haryana Schools-->
+
+    <string name="school_haryana1">Autism Centre For Excellence</string>
+    <string name="school_haryana2">Learning Skills ABA Academy For Autism &amp; Special Needs</string>
+    <string name="school_haryana3">Urja School For Special Needs Children</string>
+    <string name="school_haryana4">Star Special School For Autism Children Sirsa</string>
+    <string name="school_haryana5">National Autism Intervention Research Center</string>
+    <string name="school_haryana6">ANANDA By Action For Autism</string>
+    <string name="school_haryana7">Umeed Foundation</string>
+    <string name="school_haryana8">Divya Special School</string>
+    <string name="school_haryana9">Dew Drops Learning Solutions</string>
+    <string name="school_haryana10">NAIRC - National Autism Intervention Research Center</string>
 
     <!--    Himachal Pradesh Schools-->
 
