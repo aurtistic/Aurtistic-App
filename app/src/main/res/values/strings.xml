@@ -69,9 +69,9 @@
     <string name="tagline">Where Art meets Autism</string>
     <string name="signup">SIGNUP</string>
     <string name="work">HOW DOES AURTISTIC WORK?</string>
-    
-<!--    States-->
-    
+
+    <!--    States-->
+
     <string name="state1">Andhra Pradesh</string>
     <string name="state2">Arunachal Pradesh</string>
     <string name="state3">Assam</string>
@@ -102,6 +102,14 @@
     <string name="state28">Uttar Pradesh</string>
     <string name="state29">West Bengal</string>
 
+<!--    Andhra Pradesh Schools-->
+
+    <string name="school1">Prabhata Sindhuri Special School</string>
+    <string name="school2">Autism Research &amp; Multidisceplinary School</string>
+    <string name="school3">Kids Special Education</string>
+    <string name="school4">Aasha Jyothi Welfare Association For Disabled</string>
+    <string name="school5">Arunodaya Special School</string>
+    <string name="school6">Sparsh Special School</string>
 
     <!--    Navigation Drawer Titles-->
 
