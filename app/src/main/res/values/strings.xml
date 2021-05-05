@@ -102,7 +102,7 @@
     <string name="state28">Uttar Pradesh</string>
     <string name="state29">West Bengal</string>
 
-<!--    Andhra Pradesh Schools-->
+    <!--    Andhra Pradesh Schools-->
 
     <string name="school1">Prabhata Sindhuri Special School</string>
     <string name="school2">Autism Research &amp; Multidisceplinary School</string>
@@ -110,6 +110,50 @@
     <string name="school4">Aasha Jyothi Welfare Association For Disabled</string>
     <string name="school5">Arunodaya Special School</string>
     <string name="school6">Sparsh Special School</string>
+
+    <!--    Arunachal Pradesh Schools-->
+
+    <!--    Assam Schools-->
+
+    <string name="school_assam1">Hope Neuro-developmental Institute And Autism Centre</string>
+    <string name="school_assam2">Emmanuel\'s Early Intervention</string>
+    <string name="school_assam3">Dew Drops Child Health Care</string>
+    <string name="school_assam4">Society for Health &amp; Educational Development</string>
+
+    <!--    Bihar Schools-->
+
+    <string name="school_bihar1">Utkarsh Autism Centre</string>
+    <string name="school_bihar2">Special School For Autism, CP, MR, MD, ADHD , Deaf &amp; Blind</string>
+    <string name="school_bihar3">ARUNIM, A Unit Of Interactive Autism Centre</string>
+    <string name="school_bihar4">Mainstream For Autism &amp; Special Care Foundation</string>
+    <string name="school_bihar5">SAMARPAN Special School</string>
+    <string name="school_bihar6">A.K. Autism Centre</string>
+    <string name="school_bihar7">CHILD CONCERN Special School</string>
+    <string name="school_bihar8">Mainstream School For Autism And Special Care Foundation</string>
+    <string name="school_bihar9">Autism Care Centre - SAHYOG</string>
+    <string name="school_bihar10">Autism Resource Centre</string>
+    <string name="school_bihar11">Blue Light Autism School</string>
+    <string name="school_bihar12">Learning Disabled Education Centre</string>
+
+    <!--    Chattisgarh Schools-->
+
+    <string name="school_chattisgarh1">Dew Drops Child Health Care- ABA THERAPY</string>
+    <string name="school_chattisgarh2">Special Educator &amp; Therapy for Autism/CP/MR/ID/Special Child</string>
+
+    <!--    Goa Schools-->
+
+    <string name="school_goa1">St. Xavier\'s Academy (School for Special Children)</string>
+    <string name="school_goa2">Jyothi School For Autism</string>
+    <string name="school_goa3">The Owl House - Autism Centre Goa</string>
+    <string name="school_goa4">Daddy\'s Home Special School</string>
+
+    <!--    Gujarat Schools-->
+
+    <!--    Haryana Schools-->
+
+    <!--    Himachal Pradesh Schools-->
+
+    <!--    Jharkhand Schools-->
 
     <!--    Navigation Drawer Titles-->
 

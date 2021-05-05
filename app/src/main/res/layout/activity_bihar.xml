@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_chattisgarh"
+    tools:context=".AndhraPradesh">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bihar"
+            android:textSize="26sp"
+            android:fontFamily="@font/sf_black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:padding="20dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Schools"
+            android:textSize="16sp"
+            android:fontFamily="@font/sf_black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:padding="25dp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar1"
+            android:onClick="call_school_bihar1"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar2"
+            android:onClick="call_school_bihar2"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar3"
+            android:onClick="call_school_bihar3"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar4"
+            android:onClick="call_school_bihar4"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/school_bihar5"
+                    android:onClick="call_school_bihar5"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:background="#F4C2C2"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/school_bihar6"
+                    android:onClick="call_school_bihar6"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar7"
+            android:onClick="call_school_bihar7"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar8"
+            android:onClick="call_school_bihar8"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar9"
+            android:onClick="call_school_bihar9"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar10"
+            android:onClick="call_school_bihar10"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar11"
+            android:onClick="call_school_bihar11"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_bihar12"
+            android:onClick="call_school_bihar12"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#F4C2C2"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

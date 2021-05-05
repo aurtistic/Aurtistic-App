@@ -8,7 +8,6 @@
     tools:context=".AndhraPradesh">
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,18 +15,18 @@
         android:orientation="vertical">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="andhra Pradesh"
-        android:textSize="26sp"
-        android:fontFamily="@font/sf_black"
-        android:textAlignment="center"
-        android:layout_gravity="center"
-        android:textColor="@color/black"
-        android:textAllCaps="true"
-        android:padding="20dp"
-        android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assam"
+            android:textSize="26sp"
+            android:fontFamily="@font/sf_black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:padding="20dp"
+            android:gravity="center_horizontal" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -45,8 +44,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/school1"
-            android:onClick="call_school1"
+            android:text="@string/school_assam1"
+            android:onClick="call_school_assam1"
             android:textAllCaps="false"
             android:layout_marginTop="20dp"
             android:textColor="@color/black"
@@ -55,8 +54,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/school2"
-            android:onClick="call_school2"
+            android:text="@string/school_assam2"
+            android:onClick="call_school_assam2"
             android:textAllCaps="false"
             android:layout_marginTop="20dp"
             android:textColor="@color/black"
@@ -65,8 +64,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/school3"
-            android:onClick="call_school3"
+            android:text="@string/school_assam3"
+            android:onClick="call_school_assam3"
             android:textAllCaps="false"
             android:layout_marginTop="20dp"
             android:textColor="@color/black"
@@ -75,32 +74,32 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/school4"
-            android:onClick="call_school4"
+            android:text="@string/school_assam4"
+            android:onClick="call_school_assam4"
             android:textAllCaps="false"
             android:layout_marginTop="20dp"
             android:textColor="@color/black"
             android:background="#F4C2C2"/>
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/school5"
-            android:onClick="call_school5"
-            android:textAllCaps="false"
-            android:layout_marginTop="20dp"
-            android:textColor="@color/black"
-            android:background="#F4C2C2"/>
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/school5"-->
+<!--            android:onClick="call_school5"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:background="#F4C2C2"/>-->
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/school6"
-            android:onClick="call_school6"
-            android:textAllCaps="false"
-            android:layout_marginTop="20dp"
-            android:textColor="@color/black"
-            android:background="#F4C2C2"/>
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/school6"-->
+<!--            android:onClick="call_school6"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:background="#F4C2C2"/>-->
 
     </LinearLayout>
 
