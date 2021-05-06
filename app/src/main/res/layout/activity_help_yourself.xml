@@ -146,6 +146,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
+                android:onClick="call_toys"
                 android:layout_height="match_parent">
 
                 <TextView
@@ -156,7 +157,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/antic"
-                    android:text="Tools"
+                    android:text="Toys"
                     android:textSize="24sp" />
 
                 <ImageView
@@ -165,7 +166,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/ic_tools" />
+                    app:srcCompat="@drawable/ic_toy1" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 

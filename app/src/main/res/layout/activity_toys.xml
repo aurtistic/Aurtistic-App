@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.LookAroundYourself">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOYS"
+            android:textSize="26sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/sf_light"
+            android:text="PLAY AND SMILE" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_toy1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sensory Toy Sets"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="Purchase"
+                android:onClick="call_toy1"
+                android:background="#F4C2C2"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_toy_2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Shape Builders"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="Purchase"
+                android:onClick="call_toy2"
+                android:background="#F4C2C2"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_toy_3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Alphabet Builders"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="Purchase"
+                android:onClick="call_toy3"
+                android:background="#F4C2C2"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_toy_4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Play with Abacus"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="Purchase"
+                android:onClick="call_toy4"
+                android:background="#F4C2C2"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_toy5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Jump and Fly"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="Purchase"
+                android:onClick="call_toy5"
+                android:background="#F4C2C2"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
