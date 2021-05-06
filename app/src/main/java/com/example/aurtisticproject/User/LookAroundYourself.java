@@ -17,6 +17,14 @@ import com.example.aurtisticproject.Gujarat;
 import com.example.aurtisticproject.Haryana;
 import com.example.aurtisticproject.HimachalPradesh;
 import com.example.aurtisticproject.Jharkhand;
+import com.example.aurtisticproject.Rajasthan;
+import com.example.aurtisticproject.Sikkim;
+import com.example.aurtisticproject.TamilNadu;
+import com.example.aurtisticproject.Telangana;
+import com.example.aurtisticproject.Tripura;
+import com.example.aurtisticproject.UK;
+import com.example.aurtisticproject.UP;
+import com.example.aurtisticproject.WB;
 import com.example.aurtisticproject.R;
 
 public class LookAroundYourself extends AppCompatActivity {
@@ -56,6 +64,85 @@ public class LookAroundYourself extends AppCompatActivity {
 
     public void call_jharkhand(View view){
         startActivity(new Intent(this, Jharkhand.class));}
+
+    public void call_karnataka(View view) {
+
+        startActivity(new Intent(this, Karnataka.class));
+    }
+
+    public void call_kerala(View view) {
+
+        startActivity(new Intent(this, Kerala.class));
+    }
+
+    public void call_madhya_pradesh(View view) {
+        startActivity(new Intent(this, MadhyaPradesh.class));
+    }
+
+    public void call_maharashtra(View view)
+    {
+        startActivity(new Intent(this, Maharashtra.class));
+    }
+
+    public void call_manipur(View view) {
+
+        startActivity(new Intent(this, Manipur.class));
+    }
+
+    public void call_meghalaya(View view) {
+        startActivity(new Intent(this, Meghalaya.class));
+
+    }
+
+    public void call_mizoram(View view) {
+
+        startActivity(new Intent(this, Mizoram.class));
+    }
+
+    public void call_nagaland(View view) {
+
+        startActivity(new Intent(this, Nagaland.class));
+    }
+
+    public void call_delhi(View view) {
+
+        startActivity(new Intent(this, Delhi.class));
+    }
+
+
+    public void call_odisha(View view) {
+
+        startActivity(new Intent(this, Odisha.class));
+    }
+
+    public void call_punjab(View view) {
+
+        startActivity(new Intent(this, Punjab.class));
+    }
+
+    public void call_rajasthan(View view){
+        startActivity(new Intent(this, Rajasthan.class));}
+
+    public void call_sikkim(View view){
+        startActivity(new Intent(this, Sikkim.class));}
+
+    public void call_tamilnadu(View view){
+        startActivity(new Intent(this, TamilNadu.class));}
+
+    public void call_telangana(View view){
+        startActivity(new Intent(this, Telangana.class));}
+
+    public void call_tripura(View view){
+        startActivity(new Intent(this, Tripura.class));}
+
+    public void call_uttarpradesh(View view){
+        startActivity(new Intent(this, UP.class));}
+
+    public void call_uttarakhand(View view){
+        startActivity(new Intent(this, UK.class));}
+
+    public void call_westbengal(View view){
+        startActivity(new Intent(this, WB.class));}
 
     public void openurl(String s){
         Uri uri = Uri.parse(s);
