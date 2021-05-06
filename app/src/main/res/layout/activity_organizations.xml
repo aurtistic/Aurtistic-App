@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.LookAroundYourself">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORGANIZATIONS"
+            android:textSize="26sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/sf_light"
+            android:text="THE MOST HELPFUL FOR YOU" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_foundation1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Tanay Foundation"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_toRightOf="@id/book1"-->
+<!--                android:fontFamily="@font/sf_light"-->
+<!--                android:text="(By Ellen Notbohm &amp; Veronica Zysk)" />-->
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="Visit Website"
+                android:onClick="call_foundation1"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+            <!--            <TextView-->
+<!--                android:id="@+id/rating"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="70dp"-->
+<!--                android:layout_toRightOf="@id/book1"-->
+<!--                android:fontFamily="@font/sf_black"-->
+<!--                android:text="AURTISTIC RATING: 5/5" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_foundation2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Autism Centre For Excellence"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_light"-->
+            <!--                android:text="(By Ellen Notbohm &amp; Veronica Zysk)" />-->
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:onClick="call_foundation2"
+                android:text="Visit Website"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/rating"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="70dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_black"-->
+            <!--                android:text="AURTISTIC RATING: 5/5" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_foundation3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Assisted Living For Autistic Adults"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_light"-->
+            <!--                android:text="(By Ellen Notbohm &amp; Veronica Zysk)" />-->
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:onClick="call_foundation3"
+                android:text="Visit Website"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/rating"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="70dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_black"-->
+            <!--                android:text="AURTISTIC RATING: 5/5" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_foundation4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Action For Autism"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_light"-->
+            <!--                android:text="(By Ellen Notbohm &amp; Veronica Zysk)" />-->
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:onClick="call_foundation4"
+                android:text="Visit Website"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/rating"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="70dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_black"-->
+            <!--                android:text="AURTISTIC RATING: 5/5" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_foundation_5_updated"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Autism Speaks"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_light"-->
+            <!--                android:text="(By Ellen Notbohm &amp; Veronica Zysk)" />-->
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:onClick="call_foundation5"
+                android:text="Visit Website"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/rating"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="70dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_black"-->
+            <!--                android:text="AURTISTIC RATING: 5/5" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_foundation6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Autism Society"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_light"-->
+            <!--                android:text="(By Ellen Notbohm &amp; Veronica Zysk)" />-->
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:onClick="call_foundation6"
+                android:text="Visit Website"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/rating"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="70dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_black"-->
+            <!--                android:text="AURTISTIC RATING: 5/5" />-->
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_foundation7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="The Color Of Autism"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_light"-->
+            <!--                android:text="(By Ellen Notbohm &amp; Veronica Zysk)" />-->
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:onClick="call_foundation7"
+                android:text="Visit Website"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="140dp"/>
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/rating"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="70dp"-->
+            <!--                android:layout_toRightOf="@id/book1"-->
+            <!--                android:fontFamily="@font/sf_black"-->
+            <!--                android:text="AURTISTIC RATING: 5/5" />-->
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

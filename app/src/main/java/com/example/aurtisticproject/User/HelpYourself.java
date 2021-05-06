@@ -23,8 +23,8 @@ public class HelpYourself extends AppCompatActivity {
     }
 
     public void call_orgs(View view){
-        openurl("https://drive.google.com/drive/folders/18B-Dn-WjV5ZXsf64eBRLQr_H-ee2vmgS?usp=sharing");
-        // startActivity(new Intent(this, Social.class));
+
+         startActivity(new Intent(this, Organizations.class));
     }
 
     public void call_tools(View view){
