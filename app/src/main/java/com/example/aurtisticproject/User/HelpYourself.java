@@ -18,8 +18,8 @@ public class HelpYourself extends AppCompatActivity {
     }
 
     public void call_books(View view){
-        openurl("https://drive.google.com/drive/folders/1Gja1H-sdYNYmlCkYJAbQlP0zfnqVg4u2?usp=sharing");
-        // startActivity(new Intent(this, Social.class));
+
+         startActivity(new Intent(this, BooksContent.class));
     }
 
     public void call_orgs(View view){
@@ -43,6 +43,11 @@ public class HelpYourself extends AppCompatActivity {
     }
 
     public void call_videos(View view){
+        openurl("https://drive.google.com/drive/folders/1kz3B0bxF9UEb29pXe7-wByZEaxkqv2SV?usp=sharing");
+        // startActivity(new Intent(this, Social.class));
+    }
+
+    public void call_books_content(View view){
         openurl("https://drive.google.com/drive/folders/1kz3B0bxF9UEb29pXe7-wByZEaxkqv2SV?usp=sharing");
         // startActivity(new Intent(this, Social.class));
     }

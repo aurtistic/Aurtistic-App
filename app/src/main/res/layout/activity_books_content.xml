@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.LookAroundYourself">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOKS"
+            android:textSize="26sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/sf_light"
+            android:text="WE RATE. YOU CHOOSE." />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/book1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1001 Great Ideas"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_light"
+                android:text="(By Ellen Notbohm &amp; Veronica Zysk)" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_black"
+                android:text="AURTISTIC RATING: 5/5" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="BUY ON AMAZON"
+                android:background="#ADD8E6"
+                android:onClick="call_amazon1"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/book1"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/pdf"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Download PDF"
+                android:onClick="call_pdf1"
+                android:background="#ADD8E6"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/amazon"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/book3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book2_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Parent &amp; Teacher Guide Book For Autism"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_light"
+                android:text="(By Dr. Alok Sharma)" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_black"
+                android:text="AURTISTIC RATING: 5/5" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="BUY ON AMAZON"
+                android:background="#ADD8E6"
+                android:onClick="call_amazon2"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/book1"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/pdf"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Download PDF"
+                android:onClick="call_pdf2"
+                android:background="#ADD8E6"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/amazon"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/book33"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="The Reason I Jump"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_light"
+                android:text="(By Naoki Higashida)" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_black"
+                android:text="AURTISTIC RATING: 5/5" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="BUY ON AMAZON"
+                android:background="#ADD8E6"
+                android:onClick="call_amazon3"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/book1"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/pdf"-->
+<!--                android:layout_width="120dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:text="Download PDF"-->
+<!--                android:onClick="call_pdf1"-->
+<!--                android:background="#ADD8E6"-->
+<!--                android:textSize="10sp"-->
+<!--                android:layout_toRightOf="@+id/amazon"-->
+<!--                android:layout_marginTop="100dp"-->
+<!--                android:layout_marginLeft="10dp"/>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/book4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Thinking In Pictures"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_light"
+                android:text="(By Temple Grandin)" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_black"
+                android:text="AURTISTIC RATING: 4/5" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="BUY ON AMAZON"
+                android:background="#ADD8E6"
+                android:onClick="call_amazon4"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/book1"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/pdf"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Download PDF"
+                android:onClick="call_pdf4"
+                android:background="#ADD8E6"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/amazon"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/book5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="The Curious Incident Of The Dog In The Night-Time"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_light"
+                android:text="(By Mark Haddon)" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_black"
+                android:text="AURTISTIC RATING: 4/5" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="BUY ON AMAZON"
+                android:background="#ADD8E6"
+                android:onClick="call_amazon5"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/book1"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/pdf"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Download PDF"
+                android:onClick="call_pdf5"
+                android:background="#ADD8E6"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/amazon"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/book6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="All My Stripes"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_light"
+                android:text="(By Shaina Rudolph, Danielle Royer)" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_black"
+                android:text="AURTISTIC RATING: 5/5" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="BUY ON AMAZON"
+                android:background="#ADD8E6"
+                android:onClick="call_amazon6"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/book1"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/pdf"-->
+<!--                android:layout_width="120dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:text="Download PDF"-->
+<!--                android:onClick="call_pdf1"-->
+<!--                android:background="#ADD8E6"-->
+<!--                android:textSize="10sp"-->
+<!--                android:layout_toRightOf="@+id/amazon"-->
+<!--                android:layout_marginTop="100dp"-->
+<!--                android:layout_marginLeft="10dp"/>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/book7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Andy and His Yellow Frisbee"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_light"
+                android:text="(By Mary Thompson)" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_black"
+                android:text="AURTISTIC RATING: 5/5" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="BUY ON AMAZON"
+                android:background="#ADD8E6"
+                android:onClick="call_amazon7"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/book1"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/pdf"-->
+<!--                android:layout_width="120dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:text="Download PDF"-->
+<!--                android:onClick="call_pdf1"-->
+<!--                android:background="#ADD8E6"-->
+<!--                android:textSize="10sp"-->
+<!--                android:layout_toRightOf="@+id/amazon"-->
+<!--                android:layout_marginTop="100dp"-->
+<!--                android:layout_marginLeft="10dp"/>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/book8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="The Autism Acceptance Book"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_light"
+                android:text="(By Ellen Sabin)" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_black"
+                android:text="AURTISTIC RATING: 3.5/5" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="BUY ON AMAZON"
+                android:background="#ADD8E6"
+                android:onClick="call_amazon8"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/book1"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/pdf"-->
+<!--                android:layout_width="120dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:text="Download PDF"-->
+<!--                android:onClick="call_pdf1"-->
+<!--                android:background="#ADD8E6"-->
+<!--                android:textSize="10sp"-->
+<!--                android:layout_toRightOf="@+id/amazon"-->
+<!--                android:layout_marginTop="100dp"-->
+<!--                android:layout_marginLeft="10dp"/>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/book1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/book1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/book1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1001 Great Ideas"
+                android:layout_toRightOf="@id/book1"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_light"
+                android:text="(By Ellen Notbohm &amp; Veronica Zysk)" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/book1"
+                android:fontFamily="@font/sf_black"
+                android:text="AURTISTIC RATING: 5/5" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="BUY ON AMAZON"
+                android:background="#ADD8E6"
+                android:onClick="call_amazon1"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/book1"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/pdf"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Download PDF"
+                android:onClick="call_pdf1"
+                android:background="#ADD8E6"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/amazon"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -25,13 +25,13 @@
                 android:padding="15dp"
                 android:src="@drawable/back_icon_updated" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:padding="15dp"
-                android:src="@drawable/search_icon" />
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:padding="15dp"-->
+<!--                android:src="@drawable/search_icon" />-->
 
         </RelativeLayout>
 
@@ -48,6 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginLeft="15dp"
+            android:elevation="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="10dp"
             android:background="#FFB6C1">
@@ -94,6 +95,7 @@
             android:layout_height="150dp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
+            android:elevation="15dp"
             android:layout_marginRight="15dp"
             android:background="#add8e6">
 
@@ -132,6 +134,7 @@
             android:layout_height="150dp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
+            android:elevation="15dp"
             android:layout_marginRight="15dp"
            android:background="#90EE90">
 
@@ -170,6 +173,7 @@
             android:layout_height="150dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
+            android:elevation="15dp"
             android:layout_marginTop="20dp"
             android:background="#fed8b1">
 
@@ -208,6 +212,7 @@
             android:layout_height="150dp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
+            android:elevation="15dp"
             android:layout_marginRight="15dp"
             android:background="#CBC3E3">
 
@@ -247,6 +252,7 @@
             android:layout_height="150dp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
+            android:elevation="15dp"
             android:layout_marginRight="15dp"
             android:background="#d59667">
 
