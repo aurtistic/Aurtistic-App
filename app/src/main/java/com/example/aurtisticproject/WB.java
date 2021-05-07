@@ -42,9 +42,13 @@ public class WB extends AppCompatActivity {
     public void call_school_wb9(View view){
         openurl("https://goo.gl/maps/DdqwW2ncchcyPCbJ9");}
 
-
+    public void call_school_wb10(View view) {
+        openurl("https://goo.gl/maps/3K4dtc1iGagF3Gmg9");
+    }
 
     public void openurl(String s){
         Uri uri = Uri.parse(s);
         startActivity(new Intent(Intent.ACTION_VIEW,uri));}
+
+
 }

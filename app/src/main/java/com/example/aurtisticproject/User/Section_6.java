@@ -25,41 +25,37 @@ public class Section_6 extends AppCompatActivity {
     int i;
 
     String questions[] = {
-            "1. I am able to think about different solution for a particular problem",
-            "2. I shall come with different solution for a problem assigned to me",
-            "3. I resolve problems with solutions thought from different perspectives",
-            "4. I am able to come up with ideas which are different",
-            "5. I am able to come up with ideas which are not related to traditional solutions",
-            "6. I can visualize the unusual uses of a product / system",
-            "7. I do divergent thinking to provide solution for a problem",
-            "8. I am generally going beyond commonly accepted ideas to unusual forms for a design solution",
-            "9. I am generally going beyond commonly accepted approaches for a design solution",
-            "10. I usually go for more number of details to extend a design solution",
-            "11. I don't provide a design solution superficially or casually",
-            "12. I am able to hold conflicting ideas and values",
-            "13. I am able to take the action of making one view or belief compatible with another",
-            "14. I generally take interest on multidisciplinary knowledge gaining and its application for problem solving",
-            "15. I believe in implications of interdisciplinary/ multidisciplinary knowledge rather than for small details and facts for the sake of facts",
-            "16. I am  able to identify needs in life and fill these needs",
-            "17. I sense problems / deficiencies in life and find solutions",
-            "18. I consider thoughts and feelings of others when solving problems",
-            "19. I am very open for new ideas and experiences",
-            "20. I have the capacity to be puzzled",
-            "21. I am actively experimenting with ideas and the pleasure in seeking and discovering ideas",
-            "22. I consider and reconsider ideas for solutions of a problem",
-            "23. I evaluate my ideas as well as the ideas of others before proposing best solution to a problem",
-            "24. I take time to achieve understanding and insights",
-            "25. I usually look ahead and plan for a solution to provided problem",
-            "26. I take an overview of  the selected solution (s) and think about different consequences (e.g. business, plicy level, political etc.)",
-            "27. I have ability to put ideas in action with high energy level",
-            "28. I am able to implement the planned solution to a problem with great enthusiasm",
-            "29. I am able to work hard as long as I provide high quality design solution",
-            "30. I am able to work consistently and persistently with extraordinary concentration to provide solutions to a problem",
-            "31. I am imaginative and have ability to come with unique thoughts",
-            "32. I am able to think logically during problem solving",
-            "33. I take independent decision based on self-reliance during problem solving",
-            "34. I have ability to see and express the humour in the contradictions and ambiguities of life",
-            "35. I maintain a balance without losing commitment during design solution"
+            "1. Do you prefer to play individual games and sports like golf, where everyone works for themselves, instead of team sports and games where everyone works toward a common goal?",
+            "2. Do people say that you speak like a robot?",
+            "3. Think about your daily routine. Would you say you follow the same schedule every day of the week, and don’t like unexpected events",
+            "4. Are you always bumping into things, or tripping over your own feet",
+            "5. Do you enjoy inventing your own words and expressions that might seem quirky to others",
+            "6. Do you prefer to read non-fiction over fiction books",
+            "7. Are expressions like “Curiosity killed the cat” or “Don’t count your chickens before they hatch” odd to you",
+            "8. Are you really (really) good at a skill like math or music, but struggle to succeed in other areas",
+            "9. Do your family members lovingly refer to you as the “eccentric professor” of the family, even though you don’t work anywhere near academia",
+            "10. Is your memory like a steel trap, even for facts that you don’t fully understand",
+            "11. Are you always the first one to notice when a friend has gotten a haircut or made a small change to their appearance",
+            "12. Do you have trouble understanding what people mean when they say they feel embarrassed for someone else",
+            "13. Do you talk to friends at a party the same way you would talk to co-workers in the office",
+            "14. When you’re having a conversation with someone, do you prefer to look at the wall, their shoes, or anywhere but directly into their eyes",
+            "15. Even when you’re in a quiet place, like the library, do you find yourself making involuntary noises, like clearing your throat over and over",
+            "16. Have you always wanted a best friend, but never found one",
+            "17. Did bullies target you in grade school",
+            //questions for minor category below
+            "18. Does your child have limited speech (non-verbal or speaks in only short phrases)",
+            "19. Does your child tend to give random answers to questions, or make random comments",
+            "20. Does your child not respond to their name",
+            "21. Does your child avoid eye contact",
+            "22. Does your child not engage in pretend play with other children",
+            "23. Does your child struggle to understand other people's feelings",
+            "24. Is your child easily upset by small changes",
+            "25. Does your child have obsessive interests",
+            "26. Does your child engage in repetitive behaviors such as pacing or lining up of objects",
+            "27. Is your child over or under-sensitive to smells, tastes, or touch",
+            "28. Does your child struggle to socialize with other children",
+            "29. Does your child avoid physical contact",
+            "30. Does your child show little awareness of dangerous situations"
     };
 
     static String traits[] = {"Fluency", "Flexibility", "Originality", "Elaboration", "Tolerance of Ambiguity", "Breadth of Interest", "Sensitivity", "Curiosity", "Reflection", "Action", "Concentration & Persistence",
@@ -147,7 +143,7 @@ public class Section_6 extends AppCompatActivity {
 
 
     String opt[] = {
-            "1 -> Strongly Disagree", "2", "3", "4 -> Agree", "5", "6", "7 -> Strongly Agree"
+            "Never", "Rarely", "Sometimes", "Often", "Very Often"
     };
     int flag = 0;
     public static int marks = 0, correct = 0, wrong = 0;
@@ -164,7 +160,7 @@ public class Section_6 extends AppCompatActivity {
         String name = intent.getStringExtra("myname");
 
 
-        textView.setText("Rate yourself from on the scale of 1-7 in the following questions");
+        textView.setText("Rate yourself from on the scale of 1-5 in the following questions");
 
         submitbutton = (Button) findViewById(R.id.button3);
         quitbutton = (Button) findViewById(R.id.buttonquit);
@@ -184,8 +180,7 @@ public class Section_6 extends AppCompatActivity {
         rb3.setText(opt[2]);
         rb4.setText(opt[3]);
         rb5.setText(opt[4]);
-        rb6.setText(opt[5]);
-        rb7.setText(opt[6]);
+
         submitbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -232,8 +227,7 @@ public class Section_6 extends AppCompatActivity {
                     rb3.setText(opt[2]);
                     rb4.setText(opt[3]);
                     rb5.setText(opt[4]);
-                    rb6.setText(opt[5]);
-                    rb7.setText(opt[6]);
+
                 } else {
                     for (i = 0; i < pos.length; i++) {
                         if (pos[i] == j) {
