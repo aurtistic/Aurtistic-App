@@ -46,6 +46,7 @@ public class Login extends AppCompatActivity {
     Button CallSignUp, login_btn;
 
     static boolean logout=true;
+    static String name;
 
     ImageView image, G_signin , fb_signin;
 
@@ -255,8 +256,11 @@ public class Login extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
 
                             FirebaseUser user = mAuth.getCurrentUser();
+                            name=user.getDisplayName();
+//                            Toast.makeText(Login.this, name, Toast.LENGTH_SHORT).show();
                             logout=false;
                             Intent intent = new Intent(Login.this,UserProfile.class);
+                            intent.putExtra("name", name);
                             startActivity(intent);
 
                         } else {
