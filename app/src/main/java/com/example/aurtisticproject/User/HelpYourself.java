@@ -32,17 +32,15 @@ public class HelpYourself extends AppCompatActivity {
     }
 
     public void call_apps(View view){
-        openurl("https://drive.google.com/drive/folders/1KBVU6LZ7pNjxFruWOJegSS8PGRCOTAiQ?usp=sharing");
-        // startActivity(new Intent(this, Social.class));
+         startActivity(new Intent(this, Apps.class));
     }
 
     public void call_websites(View view){
-        openurl("https://drive.google.com/drive/folders/12z8MwonxooZ0bcWbO8_pREZ6N8n73k1P?usp=sharing");
-        // startActivity(new Intent(this, Social.class));
+         startActivity(new Intent(this, Websites.class));
     }
 
     public void call_videos(View view){
-        openurl("https://drive.google.com/drive/folders/1kz3B0bxF9UEb29pXe7-wByZEaxkqv2SV?usp=sharing");
+        openurl("https://www.youtube.com/playlist?list=PLWdP8ylcpXQYZ4yq7zAAzJxjz6eDzxu0a");
         // startActivity(new Intent(this, Social.class));
     }
 
