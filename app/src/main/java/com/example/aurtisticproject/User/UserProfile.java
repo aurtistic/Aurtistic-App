@@ -17,12 +17,16 @@ public class UserProfile extends AppCompatActivity {
 
     Button logout;
     TextView textView;
+    static String user_name="Guest";
+    FirebaseAuth mAuth;
+    FirebaseUser user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
         textView =findViewById(R.id.textView2);
+        mAuth = FirebaseAuth.getInstance();
 
 //        textView.setText(Login.name);
 //        Toast.makeText(UserProfile.this, Login.name, Toast.LENGTH_SHORT).show();
@@ -41,9 +45,13 @@ public class UserProfile extends AppCompatActivity {
     }
 
     private void showName() {
-        Intent intent = getIntent();
-        String user_name = intent.getStringExtra("name");
-        textView.setText("Hello " + user_name);
+//        Intent intent = getIntent();
+        user= mAuth.getCurrentUser();
+//        Toast.makeText(this, user.getDisplayName(), Toast.LENGTH_SHORT).show();
+//        user_name = intent.getStringExtra("name");
+
+
+        textView.setText("Hello " + user.getDisplayName());
     }
 
 

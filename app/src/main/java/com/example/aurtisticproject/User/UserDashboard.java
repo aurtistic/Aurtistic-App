@@ -189,7 +189,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
         switch (item.getItemId()) {
             case R.id.section_6:
-                startActivity(new Intent(getApplicationContext(), Section_6.class));
+                startActivity(new Intent(getApplicationContext(), QuizPop.class));
                 break;
         }
 

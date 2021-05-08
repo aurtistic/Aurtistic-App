@@ -260,7 +260,7 @@ public class Login extends AppCompatActivity {
 //                            Toast.makeText(Login.this, name, Toast.LENGTH_SHORT).show();
                             logout=false;
                             Intent intent = new Intent(Login.this,UserProfile.class);
-                            intent.putExtra("name", name);
+//                            intent.putExtra("name", name);
                             startActivity(intent);
 
                         } else {

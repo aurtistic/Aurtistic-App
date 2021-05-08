@@ -9,13 +9,16 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="User Profile"
         tools:layout_editor_absoluteX="204dp"
         tools:layout_editor_absoluteY="431dp" />
     <Button
         android:id="@+id/logout"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

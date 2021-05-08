@@ -118,19 +118,19 @@
                     android:id="@+id/radioButton5"
                     android:checked="false" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="F"
-                    android:id="@+id/radioButton6"
-                    android:checked="false" />
+<!--                <RadioButton-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="F"-->
+<!--                    android:id="@+id/radioButton6"-->
+<!--                    android:checked="false" />-->
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="G"
-                    android:id="@+id/radioButton7"
-                    android:checked="false" />
+<!--                <RadioButton-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="G"-->
+<!--                    android:id="@+id/radioButton7"-->
+<!--                    android:checked="false" />-->
 
             </RadioGroup>
 

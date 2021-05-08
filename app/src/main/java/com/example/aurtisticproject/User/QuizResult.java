@@ -21,7 +21,7 @@ public class QuizResult extends AppCompatActivity {
 
         String s= "";
         s= s+ Section_6.CS;
-        Section_6.CS = 0;
+        Section_6.CS = 0.0;
         tv.setText(s);
 
 

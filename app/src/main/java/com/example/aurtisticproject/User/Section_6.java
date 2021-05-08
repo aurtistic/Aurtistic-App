@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.aurtisticproject.R;
+import com.example.aurtisticproject.User.QuizPop;
 
 import java.text.DecimalFormat;
 
@@ -20,7 +21,7 @@ public class Section_6 extends AppCompatActivity {
     TextView tv;
     Button submitbutton, quitbutton;
     RadioGroup radio_g;
-    RadioButton rb1, rb2, rb3, rb4, rb5, rb6, rb7;
+    RadioButton rb1, rb2, rb3, rb4, rb5;//, rb6, rb7;
     public static double CS = 0.0 ;
     int i;
 
@@ -43,30 +44,30 @@ public class Section_6 extends AppCompatActivity {
             "16. Have you always wanted a best friend, but never found one",
             "17. Did bullies target you in grade school",
             //questions for minor category below
-            "18. Does your child have limited speech (non-verbal or speaks in only short phrases)",
-            "19. Does your child tend to give random answers to questions, or make random comments",
-            "20. Does your child not respond to their name",
-            "21. Does your child avoid eye contact",
-            "22. Does your child not engage in pretend play with other children",
-            "23. Does your child struggle to understand other people's feelings",
-            "24. Is your child easily upset by small changes",
-            "25. Does your child have obsessive interests",
-            "26. Does your child engage in repetitive behaviors such as pacing or lining up of objects",
-            "27. Is your child over or under-sensitive to smells, tastes, or touch",
-            "28. Does your child struggle to socialize with other children",
-            "29. Does your child avoid physical contact",
-            "30. Does your child show little awareness of dangerous situations"
+            "1. Does your child have limited speech (non-verbal or speaks in only short phrases)",
+            "2. Does your child tend to give random answers to questions, or make random comments",
+            "3. Does your child not respond to their name",
+            "4. Does your child avoid eye contact",
+            "5. Does your child not engage in pretend play with other children",
+            "6. Does your child struggle to understand other people's feelings",
+            "7. Is your child easily upset by small changes",
+            "8. Does your child have obsessive interests",
+            "9. Does your child engage in repetitive behaviors such as pacing or lining up of objects",
+            "10. Is your child over or under-sensitive to smells, tastes, or touch",
+            "11. Does your child struggle to socialize with other children",
+            "12. Does your child avoid physical contact",
+            "13. Does your child show little awareness of dangerous situations"
     };
 
-    static String traits[] = {"Fluency", "Flexibility", "Originality", "Elaboration", "Tolerance of Ambiguity", "Breadth of Interest", "Sensitivity", "Curiosity", "Reflection", "Action", "Concentration & Persistence",
-            "Expression of total personality", "Sense of Humour"};
-    static String suggest[] = new String[]{"Think from different perspective", "Apply principle of Creativity and Innovation Such as Inspiration", "Judge uniqueness of ideas for problem solving / welcome bold ideas", "Detail out your ideas from technology and business point of view", "Take stand to establish your thought and check the feasibility of implementation of your idea",
-            "Apply amalgamated knowledge from different allied disciplines", "Improve observational skills and be empathetic", "Try out different approaches to solve the problem and do experiemnt", "Always evaluate ideas before giving solution and provide optimized design solution/Is there any USP of your idea?/ What the the MVP?/ be sensitive towards business innovation or environment or socio-political issues etc.",
-            "Gain implementation skill and knowledge/ ask for help from field expert when your expertise is limited", "Be healthy and well motivated / always try for the best at your time", "Be imaginative as well as logical", "Develop sense of humour / don't loose your comitment"};
+//    static String traits[] = {"Fluency", "Flexibility", "Originality", "Elaboration", "Tolerance of Ambiguity", "Breadth of Interest", "Sensitivity", "Curiosity", "Reflection", "Action", "Concentration & Persistence",
+//            "Expression of total personality", "Sense of Humour"};
+//    static String suggest[] = new String[]{"Think from different perspective", "Apply principle of Creativity and Innovation Such as Inspiration", "Judge uniqueness of ideas for problem solving / welcome bold ideas", "Detail out your ideas from technology and business point of view", "Take stand to establish your thought and check the feasibility of implementation of your idea",
+//            "Apply amalgamated knowledge from different allied disciplines", "Improve observational skills and be empathetic", "Try out different approaches to solve the problem and do experiemnt", "Always evaluate ideas before giving solution and provide optimized design solution/Is there any USP of your idea?/ What the the MVP?/ be sensitive towards business innovation or environment or socio-political issues etc.",
+//            "Gain implementation skill and knowledge/ ask for help from field expert when your expertise is limited", "Be healthy and well motivated / always try for the best at your time", "Be imaginative as well as logical", "Develop sense of humour / don't loose your comitment"};
 
-    public  byte[] pos = new byte[]{0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 10, 10, 11, 11, 11, 12, 12};
-    public  int ans[] = new int[pos.length];
-    public static float CT[] = new float[]{0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f};
+//    public  byte[] pos = new byte[]{0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 10, 10, 11, 11, 11, 12, 12};
+    public  int ans[] = new int[30];
+    //public static float CT[] = new float[]{0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f};
     /*String fluency[] = {
             "1. I am able to think about different solution for a particular problem",
             "2. I shall come with different solution for a problem assigned to me",
@@ -146,8 +147,12 @@ public class Section_6 extends AppCompatActivity {
             "Never", "Rarely", "Sometimes", "Often", "Very Often"
     };
     int flag = 0;
-    public static int marks = 0, correct = 0, wrong = 0;
+
     public static int j = 0, c = 0;
+
+    int x=0,y=17;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -156,15 +161,22 @@ public class Section_6 extends AppCompatActivity {
 
 //        final TextView score = (TextView) findViewById(R.id.textView4);
         TextView textView = (TextView) findViewById(R.id.DispName);
-        Intent intent = getIntent();
-        String name = intent.getStringExtra("myname");
+//        Intent intent = getIntent();
+//        String name = intent.getStringExtra("myname");
 
 
-        textView.setText("Rate yourself from on the scale of 1-5 in the following questions");
+        textView.setText("Rate yourself accordingly in the following questions");
 
         submitbutton = (Button) findViewById(R.id.button3);
         quitbutton = (Button) findViewById(R.id.buttonquit);
         tv = (TextView) findViewById(R.id.tvque);
+        if(QuizPop.valid)
+        {
+            y=13;
+            x=17;
+            flag=17;
+        }
+
 
         radio_g = (RadioGroup) findViewById(R.id.answersgrp);
         rb1 = (RadioButton) findViewById(R.id.radioButton);
@@ -172,14 +184,15 @@ public class Section_6 extends AppCompatActivity {
         rb3 = (RadioButton) findViewById(R.id.radioButton3);
         rb4 = (RadioButton) findViewById(R.id.radioButton4);
         rb5 = (RadioButton) findViewById(R.id.radioButton5);
-        rb6 = (RadioButton) findViewById(R.id.radioButton6);
-        rb7 = (RadioButton) findViewById(R.id.radioButton7);
+//        rb6 = (RadioButton) findViewById(R.id.radioButton6);
+//        rb7 = (RadioButton) findViewById(R.id.radioButton7);
         tv.setText(questions[flag]);
         rb1.setText(opt[0]);
         rb2.setText(opt[1]);
         rb3.setText(opt[2]);
         rb4.setText(opt[3]);
         rb5.setText(opt[4]);
+
 
         submitbutton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -193,8 +206,17 @@ public class Section_6 extends AppCompatActivity {
                 }
                 RadioButton uans = (RadioButton) findViewById(radio_g.getCheckedRadioButtonId());
                 String ansText = uans.getText().toString();
-                String sup[]=ansText.split(" ");
-                int m = Integer.parseInt(sup[0]);
+//                String sup[]=ansText.split(" ");
+//                int m = Integer.parseInt(sup[0]);
+                int m=0;
+                for (int i = 0; i < opt.length ; i++)
+                {
+                    if(ansText.equals(opt[i])){
+                        m=i+1;
+                        break;
+                    }
+                }
+
                 ans[flag++]=m;
 //                CT[pos[flag]]= CT[pos[flag]] + answers[flag];
 //                c++;
@@ -229,22 +251,27 @@ public class Section_6 extends AppCompatActivity {
                     rb5.setText(opt[4]);
 
                 } else {
-                    for (i = 0; i < pos.length; i++) {
-                        if (pos[i] == j) {
-                            CT[j] = CT[j] + ans[i];
-                            c++;
-                        } else {
-                            CT[j] = (CT[j++]*1.0f)/ (c * 1.0f);
-                            c = 0;
-                            i--;
-                        }
+                    for (int i = x; i < 30 ; i++)
+                    {
+                        CS = CS + ans[i];
                     }
-                    CT[j]=CT[j]/((c)*1.0f);
-                    for (i = 0; i < 13; i++) {
-                        DecimalFormat df = new DecimalFormat("###.##");
-//                        Login.ct = Login.ct + df.format(CT[i]) + " ";
-                        CS = Double.valueOf(df.format(CT[i])) + CS;
-                    }
+                    CS = CS /y;
+//                    for (i = 0; i < pos.length; i++) {
+//                        if (pos[i] == j) {
+//                            CT[j] = CT[j] + ans[i];
+//                            c++;
+//                        } else {
+//                            CT[j] = (CT[j++]*1.0f)/ (c * 1.0f);
+//                            c = 0;
+//                            i--;
+//                        }
+//                    }
+//                    CT[j]=CT[j]/((c)*1.0f);
+//                    for (i = 0; i < 13; i++) {
+//                        DecimalFormat df = new DecimalFormat("###.##");
+////                        Login.ct = Login.ct + df.format(CT[i]) + " ";
+//                        CS = Double.valueOf(df.format(CT[i])) + CS;
+//                    }
 //                    Login.ct = Login.ct + "_";
 //                    DecimalFormat df = new DecimalFormat("###.##");
 //                    String st = " "+ df.format(CS);

@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".User.Websites"></activity>
+        <activity android:name=".User.QuizPop"></activity>
+        <activity android:name=".User.Websites" />
         <activity android:name=".User.Apps" />
         <activity android:name=".User.Toys" />
         <activity android:name=".User.Organizations" />
@@ -54,6 +55,7 @@
         <activity android:name=".User.QuizResult" />
         <activity android:name=".User.Section1" />
         <activity android:name=".Common.UserHelper" />
+
         <activity android:name=".Common.HowDoesAurtisticWork" />
         <activity android:name=".User.Signup" />
         <activity android:name=".User.Login" />
